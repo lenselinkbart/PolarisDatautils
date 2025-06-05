@@ -1,0 +1,315 @@
+Index	Name	SMARTS	reason	acceptable_serine_trap	acceptable_ZBG	Level
+C=O_1	acid halide	[C,S,P](=[O,S])[F,Cl,Br,I]	reagent	0	0	1
+C=O_2	acid anhydride	C(=O)O[C,S](=O)	reagent	0	0	1
+C=O_3	ester	[#6][O;R0][C;R0](=O)[#6;!$(C(F)(F)F)]	metabolicaly unstable	0	0	2
+C=O_4	trifluoroacetate	C(F)(F)(F)C(=O)[O,S]	chemically unstable	0	0	1
+C=O_5	pentafluorophenyl ester	[C;R0](=O)Oc1c(F)c(F)c(F)c(F)c1(F)	chemically unstable	0	0	1
+C=O_6	paranitrophenyl ester	[C;R0](=O)Oc1ccc(N(=O)=,-[O])cc1	chemically unstable	0	0	1
+C=O_7	ester of HOBt	[C;R0](=O)Onnn	chemically unstable	0	0	1
+C=O_8	unstable ester	[c;r6]([$([N](=O)-,=[O]),$(C#N),$(C(F)(F)F)])[$(cC(=O)-!@O[#6]),$(a:cC(=O)-!@O[#6]),$(a:a:cC(=O)-!@O[#6])]	chemically unstable	0	0	1
+C=O_9	reactive o-phenol ester	[#1,CH3]C([#1,CH3])([#1,CH3])C(=O)O[c]1:c([C,S]=O):[cH]:[cH]:[cH]:[cH]:1	serine trap (ia Aspirin)	1	0	2
+C=O_10	reactive p-phenol ester	[#1,CH3]C([#1,CH3])([#1,CH3])C(=O)O[c]1:[cH]:[cH]:c([C,S]=O):[cH]:[cH]:1	serine trap (ia Sivelestat)	1	0	2
+C=O_11	isocyanate	N=C=[S,O]	reagent	0	0	1
+C=O_12	acyl cyanide	N#CC(=O)	reagent	0	0	1
+C=O_13	aldehyde	[#6][CH](=O)	reagent, lysine trap (IGF-1R inh; dx.doi.org/10.1021/jm3003203), serine trap (wheat ser-carboxypeptidase, pdb 1BCS), metabolically unstable (substrate of aldehyde oxidase, ref 10.1021/jm100888d)	0	0	1
+C=O_14	aliphatic ketone	[CX4;!$(C(F)F)][C;R0]([CX4;!$(C(F)F)])=O		0	0	2
+C=O_15	aromatic ketone	[c][C;R0]([c,CX4;!$(C(F)F)])=O		0	0	2
+C=O_16	ketene	[#6]=C=O	reagent	0	0	1
+C=O_17	acetamide	C([#1,F])([#1,F])([#1,F])C(=O)[NR0X3]([#1,#6])[#1,#6]		0	0	2
+C=O_19	phosphonic or sulfonic acid	[S,P](=O)[OH,O-]		0	1	2
+C=O_20	poly acidic	[C,S,P](=O)[OH,O-].[C,S,P](=O)[OH,O-]	poor exposure, toxicophore (hepatotox by glucuronidation, ref PMID: 15582794 )	0	1	2
+C=O_21	tartric acid derivative	C(=O)-!@[CH]([OH])-!@[CH]([OH])-!@C(=O)	metal chelator	0	1	2
+C=O_22	beta-lactam	N1~[#6]~[#6]C1=O	serine trap (beta-lactam antibiotics)	1	0	2
+C=O_23	beta-lactone	[#6,#15,#16]1(=O)-[#6]~[#6]-[#8,#16]1	serine trap (eg orlistat, not bioavailable though)	1	0	2
+C=O_24	gamma-lactone	C1(=O)-[CX4]-C-[CX4]-O-1	serine trap	1	0	2
+C=O_25	5-alkoxy gamma-lactone	[#1,$([CH3])][CH2]O[CH]1C[CX4]C(=O)O1	cysteine trap (masked aldehyde released after hydrolysis of alkoxy: see caspase inhibitor Pralnacasan)	0	0	2
+C=O_26	arginine aldehyde	N[CH]1[CH2][CH2][CH2]N(C(=N)N)[CH]1[OH]	serine trap (masked aldehyde in wheat Serine Carboxypeptidase II inh see pdb 1BCR; doi:10.1006/jmbi.1996.0058)	0	0	1
+C=O_27	hydroxamate	[#1,#6]C(=[O,S])-[N;!$([N+])][OH,O-]	metal chelator, poor bioavailability	0	1	2
+C=O_28	TFM-ketone	FC(F)(F)C(=O)[#6]	serine trap, metal chelator	0	1	1
+C=O_29	activated ketone	[$(C(F)(F)F),$(C(=O)[O,N])]C(F)(F)C(=O)[c,CX4]	serine trap, metal chelator	0	1	1
+C=O_30	alpha-dicarbonyl	[$(C(=[Sv2,O])-C=[Sv2,O]),$(C(=[Sv2,O])-[C](=C)[OH,SH])]	serine trap and metal chelator	0	1	1
+C=O_31	alpha-ketoamide	[c,CX4]C(=O)-!@C(=O)[N]([#1,#6])[#1,#6]	serine trap (ia HCV reversible inh Telaprevir and Boceprevir;thombin inhibition pdb 1a46)	1	0	1
+C=O_32	cis-beta-dicarbonyl	[$([OH,OX1]-,=[#6X3]~[#6X3]~[#6X3]-,=[OH,OX1]);!$([O]-,=[#6R1]~;@[#6X3;R1]~;@[#6R1]-,=[O])]	metal chelator (eg quinolones)	0	1	2
+C=O_33	gamma-diketo	[#6]!@C(=[#8])!@[C;X4]!@[C;X4]!@C(=[#8])!@[#6]		0	0	2
+C=O_34	2-keto-azole	[#1,CX4;!$(CF)][C;R0](=O)c1n[c,n][c,n][o,sv2]1	serine trap (FAAH inh OL-135 is reversible; thombin pdb 1a61), metal chelator	1	1	2
+C=O_35	triamide	N(-C(=O)[#6])(-C(=O)[#6])(-C(=O)[#6])		0	0	2
+C=O_36	carbamate	[C;!$(CC(F)(F)F)][O,S][C;R0](=[O,S])N([#1,c,CX4])[#1,c,CX4]		0	0	2
+C=O_37	unstable carbamate	[c,$(FC(F)(F)CC(F)(F)F)][O][C;R0](=O)N	unstable, serine trap (ia AChE inh Rivastigmine)	1	0	1
+C=O_38	N-acyl carbamate	[C][O,S][C;R0](=[O,S])NC=O		1	0	1
+C=O_39	carbonate	[O,S][C;R0](=O)O		0	0	1
+C=O_40	EWG-alcohol	[OH][C;H0][$(C#N),$([N+](=O)[O-]),$(S(=O)=O),$(C(F)(F)F)]		0	0	2
+C=O_41	alkyl-urea	[#1,CX4][N;!H0]([#1,CX4])[CR0](=O)N([#1,CX4])[#1,CX4]		0	0	2
+C=O_42	acid a-urea	[N;!H0]-!@C(=O)-!@[N]-!@[C]-!@C(=O)O		0	0	2
+C=O_43	aryl-urea	[a;r6]-!@[NH][C](=O)N	serine trap (reversible) (eg FAAH inh JNJ-1661010/Takeda-25, PF-04457845)	0	0	2
+C=O_44	azol-urea	[n][CR0](=O)N	serine trap (reversible) (eg tetrazol-urea LY-2183240 is a non selective FAAH inh; not developped and imidazol-urea BIA 10-2474 caused serious adverse events in a PhI clinical trial in Jan2016)	0	0	1
+C=O_45	keto-azole	[n][CR0](=O)C	chemically unstable, serine trap	0	0	1
+C=O_46	acyl activated N-O	O=C(-[!N])O[$([#7;+]),$(N(C=[O,S,N])(C=[O,S,N]))]		0	0	1
+C=O_47	terminal acyl c-Pr	[!#6]C(=O)[CH]1[CH2][CH2]1	toxicophore precursor (cyclopropane carboxylic acid is hepatotox)	0	0	2
+C=O_48	anionic detergent	[CH3][CH2,OD2,Sv2D2;R0][CH2,OD2,Sv2D2;R0][CH2,OD2,Sv2D2;R0][CH2,OD2,Sv2D2;R0][CH2,OD2,Sv2D2;R0][CH2,OD2,Sv2D2;R0].[C,P,S](=O)[OH,O-]		0	0	1
+C=O_49	cationic detergent	[CH3][CH2,OD2,Sv2D2;R0][CH2,OD2,Sv2D2;R0][CH2,OD2,Sv2D2;R0][CH2,OD2,Sv2D2;R0][CH2,OD2,Sv2D2;R0][CH2,OD2,Sv2D2;R0].[$([CX4][N]([#1,CX4])[#1,CX4]),$([NH;!R]=C([NH2;!R])[N,C])]		0	0	1
+C=O_50	carbamylating agent	CC(=O)N1[CX4]CN(C(=O)[N;!H0])S1(=O)=O	serine trap	0	0	1
+C=O_51	phthalate	O-C(=O)ccC(=O)-O	metal chelator	0	1	1
+C=O_52	electrophilic carbonyl C-alpha	[CX4,c]C(=O)[C;!H0][F,Cl,Br,I,$(C#N),$([Sv2]([CH3])[CH3])]	cysteine trap	0	0	1
+C=O_53	phenyl benzoic ester	c1ccccc1C(=O)Oc1ccccc1		0	0	1
+Cetaloid_1	acetal with exocyclic heteroatom	[CX4;!H0;!$(*@O[CH](C)[CH](O)[CH]([O,N])[C!H0])]([O,NX3,Sv2])!@[OH0,NX3,Sv2;!$(*[#6X3,Sv4])]	chemically unstable	0	0	1
+Cetaloid_2	sugar	[C][CH](O)[CH](O[#1,$([CR0]=O),CX4])[CH]([O,NX3][#1,$([CR0]=O),CX4])[C!H0]	chemical tractability	0	0	2
+Cetaloid_3	bicyclic  acetal	[CX4H1R2;!$(*1[O,Sv2,N]CC[O,Sv2,N]1);!$(*1[O,Sv2,N]CCC[O,Sv2,N]1);!$(*1NC(=O)NC1);!$(*@O[CH](C)[CH](O)[CH]([O,N])[C!H0])](@[O,NX3,Sv2])@([O,NX3,Sv2])@[#6R2]	chemically unstable	0	0	2
+Cetaloid_4	ketal with exocyclic heteroatom	[CX4H0]([O,NX3,Sv2])!@[OH0,NX3,Sv2;!$(*[#6X3,Sv4])]	chemically unstable	0	0	1
+Cetaloid_5	bicyclic ketal	[CX4H0R2;!$(*1[O,Sv2,N]CC[O,Sv2,N]1);!$(*1[O,Sv2,N][#6]~[#6][CX4][O,Sv2,N]1)](@[O,NX3,Sv2])(@[O,NX3,Sv2])@[#6R2]	chemically unstable	0	0	2
+Cetaloid_6	diolane	[$([CX4]1[O,Sv2]CC[O,Sv2]1),$([CX4]1[O,Sv2][#6]~[#6][CX4][O,Sv2]1)]	chemically unstable	0	0	1
+Cetaloid_7	benzodioxolane	c1cO[CH2]O1	toxicophore precursor (mechanism based inhibition of P450, quasi-irreversible carbene, see 10.1021/jm300065h)	0	0	2
+Cetaloid_8	Meldrum acid derivative	O=C1OC(C)(C)OC(C1)=O	reagent	0	0	1
+Cetaloid_9	imidazolidine or oxazolidine	[CX4]1-[O,N;!$(*[#6X3,Sv4])]-[CX4]-[CX4]-[N;!$(*[#6X3,Sv4])]-1	chemically unstable 	0	0	1
+Cetaloid_10	saturated thiazolidine	[CX4]1-[Sv2]-[CX4]-[CX4]-[N;!$(*[#6X3,Sv4])]-1	chemically unstable 	0	0	2
+Cetaloid_11	aminal	[#1,CX4][NX3]([#1,CX4])-[CX4]-[NX3]([#1,CX4])[#1,CX4]		0	0	1
+Cetaloid_12	glycoluril derivative	O=C1NC2NC(=O)NC2N1	frequent hitter (bind streptavidin), chemical tractability	0	0	1
+Cetaloid_13	saponin derivative	O1CCCCC1OC2CCC3CCCCC3C2	chemical tractability	0	0	1
+Cetaloid_14	squalestatin derivative	C12OCCC(O1)CC2	chemical tractability	0	0	1
+C=S_1	thioester	[#6][O,S;R0][C;R0](=S)[#6]		0	0	1
+C=S_2	thioamide or thiourea	C([N;!$(N=N)])([#6,N;!$(N=N)])(=S)		0	0	1
+N_1	quaternary ammonium	[$([#6]-[#7]([#6])([#6])[#6]),$([#6]=[#7](-[#6])-[#6]),$([#7v4;H0;!$([#7+]~[*-]);!$(N(=O)[OH])])]		0	0	1
+N_2	pyridinium precursor	aC1([OH])[CH2][CH2][NX3,NX4&H1]([CX4,c,$(C=C)])[CH2][CH2]1	toxicophore precursor (neurotoxic metabolite)	0	0	2
+N_3	pyridinium direct precursor	aC1=C[CH2][NX3,NX4&H1]([CX4,c,$(C=C)])[CH2][CH2]1	toxicophore precursor (neurotoxic metabolite)	0	0	2
+N_4	azide	[$(N=!@[N]=!@[N]),$([N-]-[N+]#[N])]	reagent	0	0	1
+N_5	betacarbonyl quaternary N	C(=O)C[N+,n+;H0;!$([N+]-[O-])]		0	0	1
+N_6	chloramidine	[Cl]C([C&R0])=N		0	0	1
+N_7	carbodiimide	N=C=N		0	0	1
+N_9	azoalkanal	C[N;R0]=[NR0]CC=O		0	0	1
+N_10	imine	[#1,#6][#7;R0;X2]=[#6]([#1,!#7])[#1,!#7]	chemically unstable	0	0	1
+N_11	ethenimine	C=C=N	chemically unstable	0	0	1
+N_12	enamine	[#1,CX4]C([#1,CX4])=C([#1,C])!@[N]([#1,CX4])[#1,CX4]		0	0	1
+N_13	diazo	C=!@[N]=!@[N]		0	0	1
+N_14	triazene	N=!@N-!@N		0	0	1
+N_15	hydrazothiourea	N=NC(=S)N		0	0	1
+N_16	azo	[c,CX4][N;X2]=!@[N;X2][c,CX4]	dye	0	0	1
+N_17	activated azo	[N;R0]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=[O,S]))])=[N;R0]		0	0	1
+N_18	hydrazine derivative	[#7X3;!$(NC=O);!$([N+])]-!@[NX3;R0;!$(NC=O);!$([N+])]	toxicophore precursor (mechanism based inhibition of P450), (heme alkylation, see 10.1021/jm300065h)	0	0	1
+N_19	hydrazone	C=N-!@[#7]		0	0	1
+N_20	N-substituted hydrazide	[CX4][NX3]([#1,CX4])-!@N-!@C(=O)[#6]		0	0	2
+N_21	N-(Csp2 substituted) hydrazide	[#6X3][NX3]([#1,#6])-!@N-C=O		0	0	1
+N_22	terminal hydrazide	[NX3&H2]-!@N-!@C(=O)[#6]		0	1	1
+N_23	iminocarboxamide	C(=O)-!@N=[N!H0]	metal binder	0	1	1
+N_24	basic amidine	[c,CX4,$(C=C)]-[C;!R2](=[NX2,$([NX3][#1])]-[#1,CX4])-[N](-[#1,CX4])-[#1,CX4]	poor permeability	0	0	2
+N_25	conjugated amidine	[#6]!@[CX3](~!@[N][#6X3R0])~N		0	0	1
+N_26	imidamide	[#1,$([*;!#6;!#7])][C](=!@[N])N	chemically unstable	0	0	1
+N_27	guanidine	[#1,c,CX4,$(C=C)]-[NX3](-[#1,c,CX4,$(C=C)])-[C;!R2](=[NX2,NX3&!H0]-[#1,CX4,c,$(C=C)])-[NX3](-[#1,CX4,c,$(C=C)])-[#1,CX4,c,$(C=C)]	poor permeability	0	0	2
+N_28	biguanide	N~[C;X3](~N)~[NR0]~[C;X3](~N)~N	poor permeability	0	0	1
+N_29	thio-amine	N-!@[Sv2]		0	0	1
+N_30	N-halide	[#7][F,Cl,Br,I]		0	0	1
+N_32	aniline or precursor	c1:c:c:c:c:c:1[N;R0;!$([N+])]([#1,C&H3])[#1,C&H3]	toxicophore precursor (ia oxidized into genotox, hepatotox and methemoglobin-forming metabolites)	0	0	2
+N_33	more-than-2 anilines	c[N;!H0;!$([NH][CX3])].c[N;!H0;!$([NH][CX3])].c[N;!H0;!$([NH][CX3])]	toxicophore precursor (ia oxidized into genotox, hepatotox and methemoglobin-forming metabolites)	0	0	1
+N_35	hexocyclic acidic NH	[O]=[C,S;R0][NHR0][$([CR0]=[O]),$(C#N)]	metal binder	0	1	2
+N_36	hexocyclic N-substituted imide	[#6][CR0](=O)[N;R0]([#6])[CR0](=O)[#6]		0	0	2
+N_37	aryl diazonium	a-[N+]#N	reagent	0	0	1
+N_39	terminal alkyl amine	[CH2][NX3,NX4&H1]([#1,CH3])[#1,CH3]	toxicophore precursor (mechanism based inhibition of P450)	0	0	2
+N_41	more-than-2 basic amines	[CX4][N]([#1,CX4])[#1,CX4].[CX4][N]([#1,CX4])[#1,CX4].[CX4][N]([#1,CX4])[#1,CX4]		0	0	1
+N_42	cyanamide	N#CN([#1,CX4])[#1,CX4]	cysteine trap (eg Deubiquitinase cyanopyrrolidine inhibitors, Cath K inh)	0	0	1
+N_43	aziridine	C1NC1		0	0	1
+NO_1	oxime	[OH][NX2,NX3&H1]=!@C([#1,#6])[#1,#6]		0	0	2
+NO_2	acyl oxime	C(=O)[O][N;X2,+]=!@C([#1,#6])[#1,#6]		0	0	2
+NO_4	acyloxyamidine	NC([#6])=NOC(=O)[CH3]		0	0	1
+NO_5	aliphatic N-O	[NX4&H1,NX3;!$(NC=[O,S]);!$(N(a));!$(N=*)]-!@[OH0;!$([O-])]		0	0	1
+NO_6	aryl hydroxylamine ester	a-!@N-!@OC=O		0	0	1
+NO_7	triacyloxime	C(=O)N(C(=O))OC(=O)		0	0	1
+NO_9	alkyl N-oxide	[#7;X4;H0](~[O])-[#6]		0	0	2
+NO_10	nitroso	[N&D2](=O)	toxicophore (genotoxic and methemoglobin-forming compounds)	0	0	1
+NO_11	aliphatic nitro	[O]-,=[N](=O)[CX4;!H0]		0	0	1
+NO_12	aromatic nitro	[$([O]-,=[N](=O)[c]);!$([O]-,=[N](=O).[O]-,=[N](=O))]	toxicophore precursor (reduced into genotoxic and methemoglobin-forming metabolites)	0	0	2
+NO_13	more-than-1 nitro	[O]-,=[N](=O)[*;!O].[O]-,=[N](=O)[*;!O]	toxicophore precursor (reduced into genotoxic and methemoglobin-forming metabolites)	0	0	1
+NO_14	o-CF3-nitrobenzene	[O]-,=[N](=O)c1c(C(F)(F)(F))cccc1	toxicophore (ia androgen receptor antagonists Flutamide and Nilutamide have black box warnings owing to a relatively high incidence of liver and lung injury associated with their use)	0	0	2
+NO_15	aliphatic N-nitro	NN(-,=[O])-[O]		0	0	1
+NO_16	nitro or nitroso on double bond	C=[C,N]-N=O	metabolically unstable (substrate of aldehyde oxidase, ref 10.1021/jm100888d)	0	0	1
+NO_17	nitrate	[#6,#7][O][N+](=O)[O-]	metabolically unstable (releases NO)	0	0	2
+O_1	peroxide	OO	reagent, toxicophore precursor (forms reactive oxygen species)	0	0	1
+O_2	oxonium	[#8+]		0	0	1
+O_3	aliphatic glycol derivative	[CX4]O[CH2][CH2]O[#1,CH3]		0	0	2
+O_4	isolated phenol	[OH]c1c([#1,*!$([N,O,Sv2])])[c,n][c]([#1,*!$([N,O,Sv2])])[c,n]c([#1,*!$([N,O,Sv2])])1	metabolically unstable	0	0	2
+O_5	o-nitrophenol	[O,Sv2;H1]c1c([N](=O)-,=[O])cccc1		0	0	1
+O_6	p-nitrophenol	[O,Sv2;H1]c1ccc([N](=O)-,=[O])cc1		0	0	1
+O_7	catechol	[OH]c1c([OH])[c]([#1,*!$([N,O,Sv2])])[c][c]c([#1,*!$([N,O,Sv2])])1	metal binder	0	1	1
+O_8	pyrogallol	c1cc([OH])c([OH])c([OH])c1	aggretates proteins, frequent hitter (ia gallic tannins, ellagic tannins)	0	0	1
+O_9	more-than-3 phenols	c[OH].c[OH].c[OH].c[OH]	aggretates proteins, frequent hitter	0	0	1
+O_10	(thio)epoxide	C1[O,S]C1	reagent, toxicophore (mechanism based inhibition of P450), serine trap (Thr for proteazome inh Carfilzomib)	0	0	1
+S_1	sulph(ite,ate)	[S;!$(S[#6])](-,=[O])(=O)-[#8]		0	0	2
+S_2	sulphonate	[#6;!$(C(F)(F)F)]S(=O)(=O)[#8]		0	0	2
+S_3	sulfonyl cyanide	S(=O)(=O)C#N		0	0	1
+S_4	sulfonimine	S(=O)(=O)[N;R0]=C		0	0	1
+S_5	alpha-activated S-alkyl	[Sv2;R0][CX4;!H0][$([C](=[O,S])[#1,#6,#8&R0]),$(C#N),$([N+](=O)[O-])]	serine trap	0	0	1
+S_6	beta-activated S-alkyl	[Sv2;R0;H0][C][C;!H0][$([C](=[O,S])[#1,#6,#8&R0]),$(C#N),$([N+](=O)[O-])]	chemically unstable	0	0	2
+S_7	aliphatic S-N	[Sv2]-[N&R0]		0	0	1
+S_8	aliphatic S-O	[Sv2]-O		0	0	1
+S_9	triflate	[*]OS(=O)(=O)C(F)(F)F	chemically unstable	0	0	1
+S_10	thiol	[CX4,c][Sv2H]	reagent (reductive), metal binder (eg, ACE inh captopril, MetalloBetaLactamases), cysteine trap	0	1	2
+S_11	disulphide	[Sv2][Sv2]	reactive group (redox)	0	0	1
+S_12	S=S bond	S=S		0	0	1
+S_13	thio-ether	[#6;!$(C=[O,S,N]);!$(C#N)][S;X2;R0][#6;!$(C=[O,S,N]);!$(C#N)]		0	0	2
+S_14	xanthate	[#6][O,Sv2;R0][C;R0](=[Sv2])[Sv2][#1,#6]		0	0	1
+S_15	sulfoxide	[#6][SX3](-,=[OX1])[#6]		0	0	2
+S_16	dithiane	[CX4][Sv2][CX4][Sv2][CX4]		0	0	1
+S_17	dithiene	[Sv2;R0][C](=[C,N])[Sv2;R0]		0	0	1
+S_18	thioacetimidic	[#6]C(=N)[Sv2]		0	0	2
+S_19	sulfonyl sulfamide	[#6]S(=O)(=O)[NH]S(=O)(=O)[#6]		0	1	1
+S_20	sulfamoyl sulfamide	NS(=O)(=O)NS(=O)(=O)N		0	0	1
+S_21	isothiourea	[Sv2]-[C;R0](=N)-[N]		0	0	1
+S_22	saccharinoid	C1(=O)[c]:[c]S(=O)(=O)[NH]1		0	0	2
+S_23	sulfinic ester	[#6][SX3](=[OX1])O[#6]		0	0	2
+S_26	more-than-1 sulfone	[O]=[S]=[O].[O]=[S]=[O]		0	0	2
+S_27	sulfone with nitro	[O]=[S]=[O].[O]-,=[N](=O)[*;!O]		0	0	1
+S_28	pyridazine sulfone	[#6][S](=O)(=O)c1nnccc1	chemically unstable (sulfone leaving group)	0	0	1
+S_29	pyrazine sulfone	[#6][S](=O)(=O)c1ncccn1	chemically unstable (sulfone leaving group)	0	0	1
+S_30	pyrimidine sulfone	[#6][S](=O)(=O)c1ncncc1	chemically unstable (sulfone leaving group)	0	0	1
+S_31	sulfanyl-diazole	[Sv2]c1[n,o,s]cnn1	frequent hitter, metal binder	0	1	1
+S_32	sulfo 123-triazole	[!N][S;R0](=O)[$(n1nncc1),$(n1cnnc1)]	chemically unstable	0	0	1
+S_33	sulfo 134-triazole	[!N][S;R0](=O)[$(n1cnnc1),$(n1ncnc1)]	chemically unstable	0	0	1
+S_34	sulfo imidazole	[!N][S;R0](=O)[n]1c[n]cc1	chemically unstable	0	0	1
+S_35	sulfo pyrazole	[!N][S;R0](=O)[n]1[n]ccc1	chemically unstable	0	0	1
+P_1	phosphorane	C=P		0	0	1
+P_2	P or S halide	[P,S;!$(*=O)][Cl,Br,F,I]		0	0	1
+P_3	cyanophosphonate	P(OCC)(OCC)(=O)C#N		0	0	1
+P_4	P-[N,P,S] bond	P~[N,P,S]		0	0	1
+P_5	di-tri-phosphate	P(=O)([OH])OP(=O)[OH]		0	0	1
+P_6	phosphine	[P;X3]		0	0	1
+P_7	phosphin(i,o)nic acid	[#6][P](=O)[OH,O-]	metal binder (active metabolite of ACE inh Fosinopril)	0	1	2
+P_8	phosph(on,in)ate	[P;!$(P[OH]);!$(P[O-])](=O)[#6]	serine traps (phosphonic esters)	0	0	1
+P_9	H-phosphino	[#1]P=O		0	0	1
+P_10	phosphine oxide	[#6]P(=O)([#6])[#6]	level should be revised since Brigatinib exhibits this moiety	0	0	1
+P_11	divinyl phosphinic	C=CP(=O)(O)C=C		0	0	1
+P_12	aryl phosphorous	aP		0	0	1
+X_1	alkyl halide	[Br,Cl,I][CX4;!H0]	reagent	0	0	1
+X_2	N or S mustard	[N,S]!@[C;X4]!@[CH2][Cl,Br,I]	reagent	0	0	1
+X_3	aromatic bromine	c[Br]	toxicophore precursor (reactive metabolite)	0	0	2
+X_4	iodine	[I]		0	0	2
+X_5	per-halo alkyl	C([F,Cl])([F,Cl])C([F,Cl])([F,Cl])C([F,Cl])[F,Cl]		0	0	1
+X_6	per-halo phenyl	c1c([F,Br,Cl,I])c([F,Br,Cl,I])c([F,Br,Cl,I])c([F,Br,Cl,I])c1		0	0	1
+X_7	tri-halo vinyl heteroatom	C(-[Cl,Br,I])(-[Cl,Br,I])=C(-[Cl,Br,I])(-[N,O,S])		0	0	1
+X_8	aryl with more-than-2 chlorines	[$(Clcc(Cl)cCl),$(Clcac(Cl)cCl)]		0	0	2
+X_9	3-halo-4,5-dihydroisoxazole	[Cl,Br]C1=NO[CX4][CX4]1	cysteine trap (ref DOI: 10.1002/cmdc.201500496)	0	0	1
+CN_2	gem-nitrile	N#C*C#N		0	0	1
+CN_3	cyanate	[O,Sv2,P]C#N		0	0	1
+CN_4	cyanohydrin	[OH,Sv2H,NX4&!H0,NX3!$(*[C,S]=O)!$(*a)][CX4]C#N		0	0	2
+CN_5	isocyanide	[C-]#[N+]		0	0	1
+CN_6	more-than-2 nitriles	C#N.C#N.C#N		0	0	1
+CN_7	haloimine	[NX3]=!@C[Cl,Br,I]		0	0	1
+CC_1	floppy chain	[CH2;R0][CH2,NH,OD2,Sv2D2;R0][CH2,NH,OD2,Sv2D2;R0][CX4,N!H0,OD2,Sv2D2;R0][CX4,N!H0,OD2,Sv2D2;R0][#1,*]		0	0	2
+CC_2	acrylamide derivative	[$([CH2]),$([CH;!$([CH]-@[*]:,=[*]);!$([CH][#7,#8])]-[*])]=[CH][$(C=O),$(S(=O)=O)]	serine trap (Michael acceptor, ia 5-alpha reductase inh finasteride, dutasteride), cysteine trap (kinase inh: canertinib, neratinib, afatinib, dacomitinib; dx.doi.org/10.1021/jm3003203)	1	0	1
+CC_3	Michael alkene acceptor	[$([CH2]),$([CH1][CX4])]=[CH][$(C=S),$(C#N),$(C(F)(F)F),$([N](=O)-,=[O])]		0	0	1
+CC_4	activated Michael acceptor	[C]=!@[C](-[$([C](=[O,S])),$(C#N),$(C(F)(F)F),$([N](=O)-,=[O]),$(S(=O)=O)])[$([C](=[O,S])),$(C#N),$(C(F)(F)F),$([N](=O)-,=[O]),$(S(=O)=O)]	cysteine trap (eg PDB 4M8T; dx.doi.org/10.1021/jm3003203)	0	0	1
+CC_5	Michael alkyne acceptor	[$([C,S]=O),$(C(F)(F)F),$(C#N),$([N](=O)-,=[O])]C#[C;!$(C-[#7])]	reactive group, cysteine trap (kinase inh; dx.doi.org/10.1021/jm3003203)	0	0	1
+CC_6	beta-amino sulfone	[#1,CX4][NR0]([#1,CX4])[CX4H2][CX4H2]S(=O)=O	chemically unstable (retro-Michael)	0	0	2
+CC_7	gamma-amino propanenitrile	[#1,CX4][NR0]([#1,CX4])[CX4H2][CX4H2]C#N	chemically unstable (retro-Michael)	0	0	2
+CC_8	polyene	C=[C;R0][C;R0]=C	toxicophore precursor (mechanism based inhibition of P450)	0	0	2
+CC_9	terminal alkene	[CX4]C=[CH2]	toxicophore precursor (mechanism based inhibition of P450)	0	0	2
+CC_10	terminal alkyne	C#C[#1,C&H3]	toxicophore precursor (mechanism based inhibition of P450), FAD in MOA-B covalently binds Seleginine via its terminal alkyne	0	0	2
+CC_11	conjugated benzylidene	[a,N]C=!@C(-@[$([C]=[O,S]),$([N,O,Sv2])])-@[$([C]=[O,S]),$([N,O,Sv2])]	frequent hitter (does not match Sunitinib)	0	0	1
+CC_12	unsaturated alkyl	C#,=!@C	toxicophore precursor (mechanism based inhibition of P450)	0	0	2
+CC_13	unsaturated alkoxy	[C!H0]=!@[CH]!@[OH0]		0	0	1
+CC_14	haloethylene	C=!@C[Cl,Br,I]		0	0	1
+Ring_1	macrocycle	[r;!r3;!r4;!r5;!r6;!r7]		0	0	2
+Ring_2	crown ether	[O;R1]-@[C;R1]-@[C;R1]-@[O;R1]-@[C;R1]-@[C;R1]-@[O;R1]		0	0	1
+Ring_3	cryptand	[NX3;R3]-@[CR2].[NX3;R3]-@[CR2]	metal chelator	0	0	1
+Ring_4	adamantyl	C1C2CC3CC1CC(C2)C3	chemical tractability	0	0	2
+Ring_5	steroid	[#6]1~[#6]~[#6]~[#6]2~[#6](~[#6]~1)~C~1~C(~C~C~2)~C~2~C(~C~C~1)~C~C~C~2	chemical tractability	0	0	1
+Ring_6	dense cyclic system	[#6;X3;R3,#7;X3;R3]	chemical tractability	0	0	1
+Ring_7	highly bridged system	[$([CX4;R3]-@[*;R2].[CX4;R3]-@[*;R2]),$([CX4;R3]-@[CR2]-@[CX4;R3])]	chemical tractability	0	0	2
+Ring_9	cytochalasin derivative	O=C1NCC2CCCCC21		0	0	2
+Ring_10	cycloheximide derivative	O=C1CCCC(N1)=O		0	0	2
+Ring_11	monensin derivative	O1CCCCC1C2CCCO2		0	0	2
+Ring_12	anthocyanidin derivative	Oc1cc(O)cc2[#8+][#6]([#6](O)[#6]c21)c3ccc(O)		0	0	2
+Ring_13	4-aryl THP	C1([C;H2][C;H2]N([C;H2][C;H1]=1)[#1,CX4])a		0	0	2
+Ring_14	4-aryl DHP	a[CX4]1-C=C-N([#1,CX4])-C=C-1		0	0	2
+Ring_15	maleimide	C1(=O)[C]=[C]C(=O)N1		0	0	1
+Ring_16	phthalimide	C1(=O)ccC(=O)N1		0	0	1
+Ring_17	reactive succinimide, N-activated phthalimide or saccharin	[#6,a]1=,:[#6,a]C(=O)N([CX4][$(C=O),S])[C,SX4]1=O	serine trap	0	0	1
+Ring_23	isothiazolone	[#6]1=,:[#6]C(=O)[#7][#16v2]1		0	0	1
+Ring_24	e-poor pyran	O1[C;H0]=C([$([C](=[O,S])),$(C#N),$([N+](=O)[O-]),$(S(=O)=O),$(C(F)(F)F)])[CX4]C([$([C](=[O,S])),$(C#N),$([N+](=O)[O-]),$(S(=O)=O),$(C(F)(F)F)])=[C;H0]1		0	0	2
+Ring_25	1-3-5 oxadiazinone	[#6]C1=NC(=O)N=C([#6])O1		0	0	1
+Ring_26	3-5EWG-pyridone	[N,O,S]1~[CH]~C([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$(C=O)])~C(=O)~C([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$(C=O)])~[CH]1		0	0	1
+Ring_27	activated 4-ring	[C,N]1C(=[N,O,S])[O,S,N]C(=[N,O,S])1		0	0	1
+Ring_28	biotin	C12NC(=O)NC1C[Sv2]C2		0	0	1
+Ring_29	retinoid	CC(=C)\C=C\C=C(/C)\C=C\C1=CCCCC1(C)C		0	0	1
+Ring_30	staurosporine derivative	O=C1[NH]C[#6](=,:[#6]1~c2c[n]c3ccccc23)~c4c[n]c5ccccc45	frequent hitter (kinase inh)	0	0	1
+Ring_31	activated enamine	C(=O)C(=!@CN)C(=O)		0	0	1
+Ring_32	porphyrin	[#6;X3;r5]1~[#7r5]~[#6;X3;r5]~[#6]~[#6;X3;r5]~[#7r5]~[#6;X3;r5]~[#6]~[#6;X3;r5]~[#7r5]~[#6;X3;r5]~[#6]~[#6;X3;r5]~[#7r5]~[#6;X3;r5]~[#6]~1	metal chelator	0	0	1
+Ring_33	toxoflavin-fervenulin derivatives	[#6;!X4]1~[#7;!N+]~[#6;!X4]~[#6;!X4]2~[#7;!N+]~[#6;!X4]~[#7;!N+]~[#7;!N+]~[#6;!X4]~2~[#7;!N+]~1	frequent hitter (redox cycler; can produce H2O2)	0	0	1
+Ring_34	unstable pyrimidinone	[CX4&!H0]1-[NH]-[#6]:,=[#6]-[C](=[O])-[N]-1	chemically unstable (prone to aromatise)	0	0	1
+Ring_35	unstable 5-ring	[CX4&!H0]1-[CX4&!H0]-[*]=,:[*]-[N,O,Sv2]-1	chemically unstable (prone to aromatise)	0	0	1
+Ring_36	unstable 6-ring 1	[CX4&!H0]1-[CX4&!H0]-[*]=,:[*]-[*]=,:[*]-1	chemically unstable (prone to aromatise)	0	0	1
+Ring_37	unstable 6-ring 2	[CX3,N!X4,O]1~[CX3,N!X4,O]~[CX3,N!X4]=[CX3,N!X4]-[CX4!H0]-[CX4!H0]1	chemically unstable (prone to aromatise)	0	0	1
+Ring_39	amino-thiadiazine	[$([N!H0]C1=N-N=C-C-S1),$([NH1]=C1-N=N-C-C-S1)]	frequent hitter, metal binder (eg MMP/ADAM)	0	1	1
+Quinone_1	cyclohexadienone	O=C1C=[CH][CX4]C=C1	reagent (Michael acceptor), serine trap, toxicophore (liver failure by GSH depletion)	0	0	1
+Quinone_2	o-quinone	[O,NX2,NX3&!H0,S]=C1-[#6]=[CH]-[#6]=,:[#6]-C-1=[O,S,NX2,NX3&!H0]	toxicophore (liver failure by GSH depletion)	0	0	1
+Quinone_3	p-quinone	[O,NX2,NX3&!H0,S]=C1[#6]=[CH]C(=[O,NX2,NX3&!H0,S])[#6]=,:[#6]1	toxicophore (liver failure by GSH depletion)	0	0	1
+Quinone_4	o-quinone methide	[#6]1=[#6H][#6]=,:[#6][#6](=[#6])[#6]1(=[O,NX2,NX3&!H0,S])	toxicophore (liver failure by GSH depletion)	0	0	1
+Quinone_5	p-quinone methide	[#6;R1]1=[#6H][#6](=[#6])[#6]!-[#6][#6]1(=[O,NX2,NX3&!H0,S])	toxicophore (liver failure by GSH depletion)	0	0	1
+Quinone_6	o-quinone direct precursor	[O,NX3,Sv2;!H0]c1c([CX4,O,NX3,Sv2;!H0])cc([cH]c1)	toxicophore precursor (liver failure by GSH depletion)	0	0	2
+Quinone_9	p-quinone direct precursor	[O,NX3,Sv2;!H0]c1[cR1][cH]c(cc1)[C,O,NX3,Sv2;!H0]	toxicophore precursor (liver failure by GSH depletion)	0	0	2
+Aromatic_1	fluorene-like	[CX4]1(-c2:c(:a:a:a:a:2)c:2:c-1:a:a:a:a:2)		0	0	1
+Aromatic_2	fluorenone-like	[O,N]=[C;r5](-@c1:a:a:a:a:a:1)-@[$(c:a),$([C;R2]=@[C;R2])]		0	0	1
+Aromatic_3	flat polycyclic system	[$([#6X3,#7,#8,#16v2]~@[#6X3,#7]1~[#6X3,#7,#8,#16v2]~[#6X3,#7](~@[#6X3,#7,#8,#16v2])~@[#6X3,#7](~@[#6X3,#7,#8,#16v2])~[#6X3,#7,#8,#16v2]~[#6X3,#7,#8,#16v2;!R0]~1~@[#6X3,#7,#8,#16v2]),$([#6X3,#7,#8,#16v2]~@[#6X3,#7]1~[#6X3,#7,#8,#16v2;!R0]~[#6X3,#7](~@[#6X3,#7,#8,#16v2])~[#6X3,#7](~@[#6X3,#7,#8,#16v2])~[#6X3,#7]~1~@[#6X3,#7,#8,#16v2]),$([#6X3,#7,#8,#16v2]~@[#6X3,#7]1~[#6X3,#7,#8,#16v2]~[#6X3]~[#6X3,#7](~@[#6X3,#7,#8,#16v2])~[#6X3,#7](~@[#6X3,#7,#8,#16v2])~[#6X3,#7]~1~@[#6X3,#7,#8,#16v2])]		0	0	2
+Aromatic_4	triptycene-like	a1aaa2A3a4aaaaa4A(a5aaaaa35)a2a1		0	0	1
+Aromatic_5	aromatic load	*:*(:*):*.*:[*;R2]:[*;R2].*:[*;R2]:[*;R2]		0	0	2
+Aromatic_6	arylacetate	c-!@[C;!H0]!@C(=O)O	toxicophore precursor (hepatotox by glucuronidation)	0	0	2
+Aromatic_7	arylpropionate	c-!@[C;!H0]-!@[C;!H0]!@C(=O)O		0	0	2
+Aromatic_8	tri or tetra-aryl methyl	C(-!@c)(-!@c)-!@c		0	0	1
+Aromatic_10	pyrene	c1ccc2ccc3cccc4ccc1c2c34		0	0	1
+Aromatic_11	anthranilic amide	N-!@C(=O)-!@c:c-!@[NH]-!@C=O		0	0	2
+Aromatic_12	aromatic bis-amide	[N!H0]C(=O)!@[c]:[c]!@C(=O)[N!H0]	frequent hitter, poor solublity	0	0	1
+Aromatic_13	stilbene analog	c1ccccc1-[#6]:,=[#6]-!@c1ccccc1		0	0	2
+Aromatic_14	triphenyl-ethane	c1ccccc1-[#6]-[#6](-!@c1ccccc1)-!@c1ccccc1		0	0	2
+Aromatic_15	trimethoxyphenyl	c1cc(O[CH3])c(O[CH3])c(O[CH3])c1		0	0	2
+Aromatic_16	tetrahydro-cyclopentene-quinoline	c1ccc2c(c1)C1C(CN2)CC=C1	frequent hitter (published in eg PMID 21426147)	0	0	1
+Aromatic_17	fluorescein derivative	[O,N,S]-,=[#6]1~[#6,#7]~[#6]2O[#6]3~[#6,#7]~[#6](-,=[O,N,S])~[#6,#7]~[#6,#7]~[#6]~3~C(~[#6]~2~[#6,#7]~[#6,#7]~1)-ccC(=O)O	dye	0	0	1
+Aromatic_18	phthalein derivative	[#7,#8,#16]~[#6]~1~[*]~[*]~[#6](~[*]~[*]~1)~[#6](-c:c-[#6,#15,#16](-[#8])=O)-c:1:*:*:c(-[#7,#8,#16]):*:*:1	dye	0	0	1
+Aromatic_19	isatin derivative	c1:cC(=O)C(=O)N1	unsoluble; colored, polymerizes, serine trap	0	0	1
+Hetaro_2	p-halo pyridine	[Cl,Br,I]c1:a:a:[n;R1]:a:a:1	chemically unstable	0	0	2
+Hetaro_3	2-halo pyrimidine	[Cl,Br,I]c1:[n]:a:a:a:[n]:1	chemically unstable	0	0	1
+Hetaro_4	4-halo pyrimidine	[Cl,Br,I]c1:[n]:a:[n]:a:c:1	chemically unstable	0	0	1
+Hetaro_5	5-halo pyrimidine	[Cl,Br,I]c1:c:[n;R1]:a:[n;R1]:c:1	chemically unstable	0	0	1
+Hetaro_6	2-halo-pyrazine	[Cl,Br,I]c1:c:[n;R1]:a:a:[n;R1]:1	chemically unstable	0	0	1
+Hetaro_7	3-halo-pyridazine	[Cl,Br,I]c1:[n;R1]:[n;R1]:c:c:c:1	chemically unstable	0	0	1
+Hetaro_8	2-halo-azole	[n,o,s]1ccnc1([Cl,Br,I])	chemically unstable	0	0	1
+Hetaro_9	2-halo-3EWG-pyridine	[n;R1]1c([F,Cl,Br,I])c([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$(C=O)])[c;!$(c-N)]c[c;!$(c-N)]1	chemically unstable	0	0	1
+Hetaro_10	2-halo-5EWG-pyridine	[n;R1]1c([F,Cl,Br,I])c[c;!$(c-N)]c([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$(C=O)])[c;!$(c-N)]1	chemically unstable	0	0	1
+Hetaro_11	2-halo-3EWG-pyrazine	[n;R1]1c([F,Cl,Br,I])c([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$(C=O)])ncc1	chemically unstable	0	0	1
+Hetaro_12	2-halo-5EWG-pyrazine	[n;R1]1c([F,Cl,Br,I])[c;!$(c-N)]nc([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$(C=O)])[c;!$(c-N)]1	chemically unstable	0	0	1
+Hetaro_13	2-halo-pyrimidine	[n;R1]1c([F,Cl,Br,I])nccc1	chemically unstable	0	0	1
+Hetaro_14	4-halo-5EWG-pyrimidine	n1c[n;R1]c([F,Cl,Br,I])c([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$(C=O)])c1	chemically unstable	0	0	1
+Hetaro_15	3-halo-2EWG-pyridazine	[n;R1]1c([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$(C=O)])c([F,Cl,Br,I])ccn1	chemically unstable	0	0	1
+Hetaro_16	3-halo-4EWG-pyridazine	[n;R1]1cc([F,Cl,Br,I])c([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$(C=O)])cn1	chemically unstable	0	0	1
+Hetaro_17	2-halo-3EWG-pyridazine	[n;R1]1c([F,Cl,Br,I])c([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$(C=O)])ccn1	chemically unstable	0	0	1
+Hetaro_18	2-halo-5EWG-pyridazine	[n;R1]1c([F,Cl,Br,I])ccc([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$(C=O)])n1	chemically unstable	0	0	1
+Hetaro_19	2-EWG-triazine	([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$([N](=O)-,=[O]),$([F,Cl,Br,I])])c1ncncn1	chemically unstable	0	0	1
+Hetaro_20	coumarin	[#6]-2(-[#6]=[#6]-c:1:c:c(:c:c:c:1-[#8]-2))=[#8]		0	0	2
+Hetaro_21	flavonoid	O=C1[CH]=C(c)Oc:c1	dye	0	0	2
+Hetaro_22	isoflavonoid	O=C1C(c)=[CH]Oc:c1	dye	0	0	2
+Hetaro_23	reactive chromenone	O=C1[CH]=C([#1,F,Cl,Br])Oc:c1		0	0	1
+Hetaro_25	S or N benzo[b]furazane	c1:c:[c](-[$(S(=O)(=O)),$([N](=O)-,=[O])]):c2:c(:c:1):n:[o,s]:n:2	frequent hitter (sulfamoyl or nitro-benzofurazanes interfere with fluorescence-based assays)	0	0	1
+Hetaro_26	hydroxyquinoline	[OH]c1cccc2cccnc12	metal chelator	0	1	2
+Hetaro_27	non-fused furan	c(!@[#1,*])1oc(!@[#1,*])c(!@[#1,*])c(!@[#1,*])1	toxicophore precursor (mechanism based inhibition of P450) (see PMID 23061605)	0	0	2
+Hetaro_28	methyl-furan	c([CH3])1oc([*])[cH][cH]1	chemically unstable (in air/DMSO, see PMID 26358009)	0	0	1
+Hetaro_29	non-fused pyrrole	c(!@[#1,A])1[nH1]c(!@[#1,A])c(!@[#1,A])c(!@[#1,A])1		0	0	2
+Hetaro_30	di-Me pyrrole	n1c([CH3])ccc([CH3])1	chemically unstable	0	0	1
+Hetaro_32	free imidazole	[$([cH;R1]1[nH][cH;R1][n;R1][c;R1]1),$([cH;R1]1n[cH;R1][nH;R1][c;R1]1)]	metal chelator, CYP inhibition	0	1	2
+Hetaro_35	e-rich indole	[c;R1]1[c;R1][c;R1]c2c([c;R1]1)c(c([nH]2))[#1]	toxicophore precursor (liver failure by GSH depletion)	0	0	2
+Hetaro_36	3-methylindole	c1ccc2c(c1)c(c(n2[H])[H])[C;H3]		0	0	2
+Hetaro_37	e-rich benzofuran	[c;R1]1[c;R1][c;R1]c2c([c;R1]1)c(c(o2))[#1]	toxicophore precursor (liver failure by GSH depletion)	0	0	2
+Hetaro_38	thiazole	s1cncc1	toxicophore precursor (mechanism based inhibition of P450) (ia HIV protease inhibitors Ritonavir, Cobicistat, see 10.1021/jm300065h)	0	0	2
+Hetaro_39	C-amino triazole	[#1,CX4]N([#1,CX4])c1:[nH]:[c;R1]:[n;R1]:[n;R1]:1		0	0	2
+Hetaro_40	N-amino triazole	Nnnn	toxicophore precursor (mechanism based inhibition of P450), (heme alkylation, see 10.1021/jm300065h)	0	0	1
+Hetaro_41	amino thiadiazol	[#1,CX4]N([#1,CX4])c1:[sX2]:[c;R1]:[n;R1]:[n;R1]:1		0	0	2
+Hetaro_42	chlozapine-like	N-C1=[NX2]-c:c[NH;X3]c:a1	toxicophore precursor (reactive metabolite)	0	0	2
+Hetaro_43	tri-amino triazine	Nc1nc(N)nc(N)n1	poor permeability	0	0	2
+Hetaro_44	m or p-substituted pyridine	[nX2]1:[cH]:[c]:[c]:[c]:[cH]:1	CYP inhibition	0	0	2
+Hetaro_47	substituted benzoxazinone	[N,c]C1=Nc2ccccc2C(=O)O1	serine trap	0	0	1
+Hetaro_51	di-chloroisochromenone	ClC1=C(Cl)ccC(=O)O1	serine trap (rhomboid protease inhibitors)	0	0	1
+Hetaro_52	alkoxy-chloroisochromenone	[CX4]OC1=C(Cl)c2ccc(N)cc2C(=O)O1	serine trap (rhomboid protease inhibitors)	0	0	1
+atomtype_2	hetero-silyl	[#14]~[!#6]		0	0	2
+atomtype_3	reactive boron	[B][!#6;!#8]	reagent	0	0	1
+atomtype_4	aryl boronic	[c][BX3]([O][#1,C])[O][#1,C]	serine trap (eg Thr trap in autotaxin inh), zinc binder (eg autotaxin)	1	1	2
+atomtype_5	alkyl boronic	[CX4][BX3]([O][#1,C])[O][#1,C]	serine trap (eg Thr trap proteazome inh Bortezomib)	1	1	2
+atomtype_6	borate	OB(O)O		0	0	1
+atomtype_7	selenium	[Se]		0	0	2
+atomtype_8	unusual atom type	[!#1;!#5;!#6;!#7;!#8;!#9;!#14;!#15;!#16;!#17;!#34;!#35;!#53]		0	0	1
+misc_1	quaternary C,Cl,I,P or S	[C+,Cl+,I+,P+,S+;!$([S+][O-])]		0	0	1
+misc_2	acidic CH	[C;!H0]([$(C(=[O,S])),$(C#N),$([N+](=O)[O-]),$(S(=O)=O),$(C(F)(F)F)])[$(C(=[O,S])),$(C#N),$([N+](=O)[O-]),$(S(=O)=O)]		0	0	2
+misc_3	peptide-like	[C;!$(C=O)]C(=O)-!@[N][C;!$(C=O)]C(=O)-!@[N][C;!$(C=O)]C(=O)-!@[N]	metabolically unstable	0	0	2

@@ -1,0 +1,93 @@
+image:
+  name: xxx.dkr.ecr.xx-xxxx-x.amazonaws.com/cicd:latest
+  aws:
+    oidc-role: arn:aws:iam::xxx:role/xxx
+
+
+definitions: 
+  services:
+    docker:
+      memory: 3072
+# Define default steps
+  steps:
+    - step: &base
+        name: Base
+        oidc: true
+        script:
+          - echo "Welcome"
+        caches:
+          - pip
+    - step: &aws_login
+        <<: *base
+        name: Login to AWS using OIDC
+        script:
+          - CodeArtifact_Login.sh
+        artifacts:
+          - web-identity-token
+          - aws_login.sh
+    - step: &build_package
+        <<: *base
+        name: Prepare virtual environment
+        script:
+          - . aws_login.sh
+          - echo "Detected package version as _$(python3 -m setuptools_scm)_"
+          - python3 -m venv venv
+          - source venv/bin/activate
+          - pip3 install .[test]
+        artifacts:
+          - venv/**
+          - build_vars.sh
+    - step: &test
+       <<: *base
+       name: Test package
+       script:
+         - source venv/bin/activate
+         - pytest -v tests/* --junitxml=test-reports/report.xml
+
+    - step: &push
+        <<: *base
+        name: Build and Push package
+        oidc: true
+        script:
+          - . aws_login.sh
+          - '[ -z "${package_name}" ] && package_name="${BITBUCKET_REPO_SLUG}" '
+          - python3 -m build
+          - python3 -m twine upload --repository codeartifact dist/*
+
+pipelines:
+  branches:
+    '{master,main}':
+    - step:
+        oidc: true
+        name: Create tag
+        script:
+          - Create_Tag.sh
+    # Only run this pipeline when a branch with a prefix "release/" is created
+    'release/*':
+      - stage:
+          name: Build, test and push to code-artifact dev repository
+          deployment: Development
+          steps:
+            - step:
+                <<: *aws_login
+            - step:
+                <<: *build_package
+            - step:
+                <<: *test
+            - step:
+                <<: *push
+
+  tags:
+    '*':
+      - stage:
+          name: Build, test and push to main repository (production)
+          deployment: Production
+          steps:
+            - step:
+                <<: *aws_login
+            - step:
+                <<: *build_package
+            - step:
+                <<: *test
+            - step:
+                <<: *push

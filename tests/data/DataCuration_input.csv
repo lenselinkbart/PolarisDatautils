@@ -1,0 +1,8 @@
+r_i_docking_score,smiles
+70.29,COc1cc(/C=N/N2C(=O)[C@@H]3[C@@H](C2=O)[C@H]2C=C[C@H]3CC2)cc(Cl)c1OCC(=O)O
+71.18,CCCCCCCCN(CCCCCCCC)C[C@H](O)c1ccc(F)cc1
+65.16,O=C1[C@@H]2[C@H](c3ccccc3)OC3(C(=O)c4ccccc4C3=O)[C@@H]2C(=O)N1C1CCCC1
+64.45,O=C(Cc1ccccc1)/C(Cc1ccccc1)=N\Nc1ccccc1
+41.19,COc1ccc2c3c1O[C@]14COC(=O)[C@]5(C)C[C@]6(C=C[C@@]51OC)[C@@H](C2)N(C)CC[C@@]364
+66.17,CCOC(=O)c1c(NC(=O)[C@@H]2[C@@H](C(=O)O)[C@H]3C=C[C@H]2C3)sc2c1CC[C@@H](CC)C2
+63.62,CC(=O)C1=NN(c2ccc(C)cc2)[C@H]2C(=O)N(c3cccc(Cl)c3)C(=O)[C@@H]12

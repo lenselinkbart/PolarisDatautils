@@ -1,0 +1,2976 @@
+
+  SciTegic02172313562D
+
+  7  7  0  0  0  0            999 V2000
+    3.7590   -3.5339    0.0000 C   0  0
+    4.7821   -2.9436    0.0000 C   0  0
+    5.8013   -3.5333    0.0000 C   0  0
+    5.8013   -4.7148    0.0000 C   0  0
+    4.7847   -5.3043    0.0000 C   0  0
+    3.7590   -4.7201    0.0000 C   0  0
+    6.8245   -2.9426    0.0000 N   0  0
+  2  1  2  0
+  3  2  1  0
+  4  3  2  0
+  5  4  1  0
+  1  6  1  0
+  6  5  2  0
+  3  7  1  0
+M  END
+> <Index>
+1
+
+> <Case_Description>
+achiral molecule with no stereocenters, no salts
+
+> <Expected_Action>
+none
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+0
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 18 19  0  0  0  0            999 V2000
+   19.0913   -6.0204    0.0000 O   0  0
+   20.1138   -5.4300    0.0000 C   0  0
+   20.1142   -4.2489    0.0000 C   0  0
+   21.1345   -3.6610    0.0000 C   0  0
+   22.1577   -4.2518    0.0000 C   0  0
+   22.1599   -5.4270    0.0000 C   0  0
+   21.1411   -6.0231    0.0000 C   0  0
+   23.1833   -6.0148    0.0000 C   0  0
+   24.1957   -5.4195    0.0000 C   0  0
+   24.1909   -4.2502    0.0000 C   0  0
+   23.1716   -3.6646    0.0000 C   0  0
+   14.2893   -4.1799    0.0000 C   0  0
+   15.3121   -3.5898    0.0000 C   0  0
+   16.3309   -4.1793    0.0000 C   0  0
+   16.3309   -5.3604    0.0000 C   0  0
+   15.3146   -5.9498    0.0000 C   0  0
+   14.2893   -5.3657    0.0000 C   0  0
+   17.3538   -3.5888    0.0000 N   0  0
+  1  2  1  0
+  3  2  2  0
+  4  3  1  0
+  5  4  2  0
+  6  5  1  0
+  7  6  2  0
+  2  7  1  0
+  6  8  1  0
+  8  9  2  0
+  9 10  1  0
+  5 11  1  0
+ 10 11  2  0
+ 13 12  2  0
+ 14 13  1  0
+ 15 14  2  0
+ 16 15  1  0
+ 12 17  1  0
+ 17 16  2  0
+ 14 18  1  0
+M  END
+> <Index>
+2
+
+> <Case_Description>
+2 achiral molecules with no stereocenters, no salts
+
+> <Expected_Action>
+keep largest
+
+> <Expected_CSXMILES>
+SMILES of largest fragment
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+0
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  7  0  0  0  0            999 V2000
+    2.3000   -7.1284    0.0000 Cl  0  0
+    3.7148   -6.8810    0.0000 C   0  0
+    4.7376   -6.2909    0.0000 C   0  0
+    5.7565   -6.8804    0.0000 C   0  0
+    5.7565   -8.0616    0.0000 C   0  0
+    4.7402   -8.6509    0.0000 C   0  0
+    3.7148   -8.0669    0.0000 C   0  0
+    6.7794   -6.2899    0.0000 N   0  0
+  3  2  2  0
+  4  3  1  0
+  5  4  2  0
+  6  5  1  0
+  2  7  1  0
+  7  6  2  0
+  4  8  1  0
+M  END
+> <Index>
+3
+
+> <Case_Description>
+2 achiral molecules with no stereocenters, one is salt fragment
+
+> <Expected_Action>
+keep largest
+
+> <Expected_CSXMILES>
+SMILES of largest fragment
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+Yes
+
+> <Specified_Stereocenters>
+0
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  7  7  0  0  0  0            999 V2000
+    8.8834   -3.9407    0.0000 C   0  0
+    9.9063   -3.3501    0.0000 C   0  0  2  0  0  0
+   10.9291   -3.9407    0.0000 C   0  0
+   10.9291   -5.1218    0.0000 N   0  0
+    9.9063   -5.7124    0.0000 C   0  0
+    8.8834   -5.1218    0.0000 C   0  0
+    9.9063   -2.1694    0.0000 O   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  2  7  1  1
+M  END
+> <Index>
+4
+
+> <Case_Description>
+chiral molecule with 1 stereocenter, set to RAC
+
+> <Expected_Action>
+flatten stereo bond
+
+> <Expected_CSXMILES>
+SMILES without @
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+1
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 18 19  0  0  0  0            999 V2000
+    3.7590   -3.5339    0.0000 C   0  0
+    4.7821   -2.9436    0.0000 C   0  0
+    5.8013   -3.5333    0.0000 C   0  0
+    5.8013   -4.7148    0.0000 C   0  0
+    4.7847   -5.3043    0.0000 C   0  0
+    3.7590   -4.7201    0.0000 C   0  0
+    6.8245   -2.9426    0.0000 N   0  0
+    8.8834   -3.9407    0.0000 C   0  0
+    9.9063   -3.3501    0.0000 C   0  0  2  0  0  0
+   10.9291   -3.9407    0.0000 C   0  0
+   10.9291   -5.1218    0.0000 N   0  0
+    9.9063   -5.7124    0.0000 C   0  0
+    8.8834   -5.1218    0.0000 C   0  0
+    9.9063   -2.1694    0.0000 O   0  0
+    9.9055   -6.8898    0.0000 C   0  0
+    8.8826   -7.4808    0.0000 C   0  0
+    7.8636   -6.8954    0.0000 C   0  0
+    7.8564   -5.7151    0.0000 C   0  0
+  2  1  2  0
+  3  2  1  0
+  4  3  2  0
+  5  4  1  0
+  1  6  1  0
+  6  5  2  0
+  3  7  1  0
+  8  9  1  0
+ 10  9  1  0
+ 11 10  1  0
+ 12 11  1  0
+  8 13  1  0
+ 13 12  2  0
+  9 14  1  1
+ 12 15  1  0
+ 16 15  2  0
+ 17 16  1  0
+ 18 17  2  0
+ 13 18  1  0
+M  END
+> <Index>
+5
+
+> <Case_Description>
+2 molecules, one chiral with 1 stereocenter, set to RAC, one achiral with no stereocenters
+
+> <Expected_Action>
+keep largest + flatten stereo bond
+
+> <Expected_CSXMILES>
+SMILES of largest fragment without @
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+1
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 12 12  0  0  0  0            999 V2000
+    7.5938   -4.5000    0.0000 Cl  0  0
+    8.8834   -3.9407    0.0000 C   0  0
+    9.9063   -3.3501    0.0000 C   0  0  2  0  0  0
+   10.9291   -3.9407    0.0000 C   0  0
+   10.9291   -5.1218    0.0000 N   0  0
+    9.9063   -5.7124    0.0000 C   0  0
+    8.8834   -5.1218    0.0000 C   0  0
+    9.9063   -2.1694    0.0000 O   0  0
+    9.9055   -6.8898    0.0000 C   0  0
+    8.8826   -7.4808    0.0000 C   0  0
+    7.8636   -6.8954    0.0000 C   0  0
+    7.8564   -5.7151    0.0000 C   0  0
+  2  3  1  0
+  4  3  1  0
+  5  4  1  0
+  6  5  1  0
+  2  7  1  0
+  7  6  2  0
+  3  8  1  1
+  6  9  1  0
+ 10  9  2  0
+ 11 10  1  0
+ 12 11  2  0
+  7 12  1  0
+M  END
+> <Index>
+6
+
+> <Case_Description>
+2 molecules, one chiral with 1 stereocenter, set to RAC, one salt fragment
+
+> <Expected_Action>
+keep largest + flatten stereo bond
+
+> <Expected_CSXMILES>
+SMILES of largest fragment without @
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+Yes
+
+> <Specified_Stereocenters>
+1
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  7  7  0  0  1  0            999 V2000
+   18.1337   -5.7782    0.0000 C   0  0
+   19.1563   -5.1878    0.0000 C   0  0  2  0  0  0
+   20.1788   -5.7782    0.0000 C   0  0
+   20.1788   -6.9589    0.0000 N   0  0
+   19.1563   -7.5494    0.0000 C   0  0
+   18.1337   -6.9589    0.0000 C   0  0
+   19.1563   -4.0074    0.0000 O   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  2  7  1  1
+M  END
+> <Index>
+7
+
+> <Case_Description>
+chiral molecule with 1 stereocenter, set to ABS
+
+> <Expected_Action>
+none
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+1
+
+> <Chirality_Flag>
+1
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 18 19  0  0  1  0            999 V2000
+    8.9552  -10.4284    0.0000 C   0  0
+    9.9780   -9.8382    0.0000 C   0  0
+   10.9969  -10.4278    0.0000 C   0  0
+   10.9969  -11.6089    0.0000 C   0  0
+    9.9806  -12.1982    0.0000 C   0  0
+    8.9552  -11.6142    0.0000 C   0  0
+   12.0198   -9.8372    0.0000 N   0  0
+   14.0781  -10.8351    0.0000 C   0  0
+   15.1007  -10.2446    0.0000 C   0  0  2  0  0  0
+   16.1232  -10.8351    0.0000 C   0  0
+   16.1232  -12.0158    0.0000 N   0  0
+   15.1007  -12.6062    0.0000 C   0  0
+   14.0781  -12.0158    0.0000 C   0  0
+   13.0514  -12.6089    0.0000 C   0  0
+   13.0586  -13.7889    0.0000 C   0  0
+   14.0773  -14.3741    0.0000 C   0  0
+   15.0999  -13.7833    0.0000 C   0  0
+   15.1007   -9.0643    0.0000 O   0  0
+  2  1  2  0
+  3  2  1  0
+  4  3  2  0
+  5  4  1  0
+  1  6  1  0
+  6  5  2  0
+  3  7  1  0
+  8  9  1  0
+ 10  9  1  0
+ 11 10  1  0
+ 12 11  1  0
+  8 13  1  0
+ 13 12  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 12 17  1  0
+ 16 17  2  0
+  9 18  1  1
+M  END
+> <Index>
+8
+
+> <Case_Description>
+2 molecules, one chiral with 1 stereocenter, set to ABS, one achiral with no stereocenters
+
+> <Expected_Action>
+keep largest
+
+> <Expected_CSXMILES>
+SMILES of largest fragment
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+1
+
+> <Chirality_Flag>
+1
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 12 12  0  0  1  0            999 V2000
+   12.5938  -11.5313    0.0000 Cl  0  0
+   14.0781  -10.8351    0.0000 C   0  0
+   15.1007  -10.2446    0.0000 C   0  0  2  0  0  0
+   16.1232  -10.8351    0.0000 C   0  0
+   16.1232  -12.0158    0.0000 N   0  0
+   15.1007  -12.6062    0.0000 C   0  0
+   14.0781  -12.0158    0.0000 C   0  0
+   13.0514  -12.6089    0.0000 C   0  0
+   13.0586  -13.7889    0.0000 C   0  0
+   14.0773  -14.3741    0.0000 C   0  0
+   15.0999  -13.7833    0.0000 C   0  0
+   15.1007   -9.0643    0.0000 O   0  0
+  2  3  1  0
+  4  3  1  0
+  5  4  1  0
+  6  5  1  0
+  2  7  1  0
+  7  6  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+  6 11  1  0
+ 10 11  2  0
+  3 12  1  1
+M  END
+> <Index>
+9
+
+> <Case_Description>
+2 molecules, one chiral with 1 stereocenter, set to ABS, one salt fragment
+
+> <Expected_Action>
+keep largest
+
+> <Expected_CSXMILES>
+SMILES of largest fragment
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+Yes
+
+> <Specified_Stereocenters>
+1
+
+> <Chirality_Flag>
+1
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  8  0  0  0  0            999 V2000
+   18.1337   -5.7782    0.0000 C   0  0  2  0  0  0
+   19.1563   -5.1878    0.0000 C   0  0  2  0  0  0
+   20.1788   -5.7782    0.0000 C   0  0
+   20.1788   -6.9589    0.0000 N   0  0
+   19.1563   -7.5494    0.0000 C   0  0
+   18.1337   -6.9589    0.0000 C   0  0
+   19.1563   -4.0074    0.0000 O   0  0
+   17.1112   -5.1878    0.0000 N   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  2  7  1  1
+  1  8  1  6
+M  END
+> <Index>
+10
+
+> <Case_Description>
+chiral molecule with 2 stereocenters, set to RAC
+
+> <Expected_Action>
+take chirality flag into account
+
+> <Expected_CSXMILES>
+SMILES + &1 with atom indices of stereocenters
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 19 20  0  0  0  0            999 V2000
+    7.9865  -10.9596    0.0000 C   0  0
+    9.0093  -10.3695    0.0000 C   0  0
+   10.0282  -10.9590    0.0000 C   0  0
+   10.0282  -12.1402    0.0000 C   0  0
+    9.0119  -12.7295    0.0000 C   0  0
+    7.9865  -12.1455    0.0000 C   0  0
+   11.0511  -10.3685    0.0000 N   0  0
+   14.0781  -10.8351    0.0000 C   0  0  2  0  0  0
+   15.1007  -10.2446    0.0000 C   0  0  2  0  0  0
+   16.1232  -10.8351    0.0000 C   0  0
+   16.1232  -12.0158    0.0000 N   0  0
+   15.1007  -12.6062    0.0000 C   0  0
+   14.0781  -12.0158    0.0000 C   0  0
+   13.0514  -12.6089    0.0000 C   0  0
+   13.0586  -13.7889    0.0000 C   0  0
+   14.0773  -14.3741    0.0000 C   0  0
+   15.0999  -13.7833    0.0000 C   0  0
+   15.1007   -9.0643    0.0000 O   0  0
+   13.0556  -10.2447    0.0000 N   0  0
+  2  1  2  0
+  3  2  1  0
+  4  3  2  0
+  5  4  1  0
+  1  6  1  0
+  6  5  2  0
+  3  7  1  0
+  8  9  1  0
+ 10  9  1  0
+ 11 10  1  0
+ 12 11  1  0
+  8 13  1  0
+ 13 12  2  0
+ 13 14  1  0
+ 14 15  2  0
+ 15 16  1  0
+ 12 17  1  0
+ 16 17  2  0
+  9 18  1  1
+  8 19  1  6
+M  END
+> <Index>
+11
+
+> <Case_Description>
+2 molecules, one chiral with 2 stereocenters, set to RAC, one achiral with no stereocenters
+
+> <Expected_Action>
+keep largest + take chirality flag into account
+
+> <Expected_CSXMILES>
+SMILES of largest fragment + &1 with atom indices of stereocenters
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 13 13  0  0  0  0            999 V2000
+   11.9375  -12.3438    0.0000 Cl  0  0
+   14.0781  -10.8351    0.0000 C   0  0  2  0  0  0
+   15.1007  -10.2446    0.0000 C   0  0  2  0  0  0
+   16.1232  -10.8351    0.0000 C   0  0
+   16.1232  -12.0158    0.0000 N   0  0
+   15.1007  -12.6062    0.0000 C   0  0
+   14.0781  -12.0158    0.0000 C   0  0
+   13.0514  -12.6089    0.0000 C   0  0
+   13.0586  -13.7889    0.0000 C   0  0
+   14.0773  -14.3741    0.0000 C   0  0
+   15.0999  -13.7833    0.0000 C   0  0
+   15.1007   -9.0643    0.0000 O   0  0
+   13.0556  -10.2447    0.0000 N   0  0
+  2  3  1  0
+  4  3  1  0
+  5  4  1  0
+  6  5  1  0
+  2  7  1  0
+  7  6  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+  6 11  1  0
+ 10 11  2  0
+  3 12  1  1
+  2 13  1  6
+M  END
+> <Index>
+12
+
+> <Case_Description>
+2 molecules, one chiral with 2 stereocenters, set to RAC, one salt fragment
+
+> <Expected_Action>
+keep largest + take chirality flag into account
+
+> <Expected_CSXMILES>
+SMILES of largest fragment + &1 with atom indices of stereocenters
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+Yes
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  8  0  0  1  0            999 V2000
+   18.1337   -5.7782    0.0000 C   0  0  2  0  0  0
+   19.1563   -5.1878    0.0000 C   0  0  2  0  0  0
+   20.1788   -5.7782    0.0000 C   0  0
+   20.1788   -6.9589    0.0000 N   0  0
+   19.1563   -7.5494    0.0000 C   0  0
+   18.1337   -6.9589    0.0000 C   0  0
+   19.1563   -4.0074    0.0000 O   0  0
+   17.1112   -5.1878    0.0000 N   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  2  7  1  1
+  1  8  1  6
+M  END
+> <Index>
+13
+
+> <Case_Description>
+chiral molecule with 2 stereocenters, set to ABS
+
+> <Expected_Action>
+none
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+1
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 19 20  0  0  1  0            999 V2000
+   14.0781  -10.8351    0.0000 C   0  0  2  0  0  0
+   15.1007  -10.2446    0.0000 C   0  0  2  0  0  0
+   16.1232  -10.8351    0.0000 C   0  0
+   16.1232  -12.0158    0.0000 N   0  0
+   15.1007  -12.6062    0.0000 C   0  0
+   14.0781  -12.0158    0.0000 C   0  0
+   13.0514  -12.6089    0.0000 C   0  0
+   13.0586  -13.7889    0.0000 C   0  0
+   14.0773  -14.3741    0.0000 C   0  0
+   15.0999  -13.7833    0.0000 C   0  0
+   15.1007   -9.0643    0.0000 O   0  0
+   13.0556  -10.2447    0.0000 N   0  0
+    7.9865  -10.9596    0.0000 C   0  0
+    9.0093  -10.3695    0.0000 C   0  0
+   10.0282  -10.9590    0.0000 C   0  0
+   10.0282  -12.1402    0.0000 C   0  0
+    9.0119  -12.7295    0.0000 C   0  0
+    7.9865  -12.1455    0.0000 C   0  0
+   11.0511  -10.3685    0.0000 N   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  5 10  1  0
+  9 10  2  0
+  2 11  1  1
+  1 12  1  6
+ 14 13  2  0
+ 15 14  1  0
+ 16 15  2  0
+ 17 16  1  0
+ 13 18  1  0
+ 18 17  2  0
+ 15 19  1  0
+M  END
+> <Index>
+14
+
+> <Case_Description>
+2 molecules, one chiral with 2 stereocenters, set to ABS, one achiral with no stereocenters
+
+> <Expected_Action>
+keep largest
+
+> <Expected_CSXMILES>
+SMILES of largest fragment
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+1
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 13 13  0  0  1  0            999 V2000
+   11.1875  -13.0000    0.0000 Cl  0  0
+   14.0781  -10.8351    0.0000 C   0  0  2  0  0  0
+   15.1007  -10.2446    0.0000 C   0  0  2  0  0  0
+   16.1232  -10.8351    0.0000 C   0  0
+   16.1232  -12.0158    0.0000 N   0  0
+   15.1007  -12.6062    0.0000 C   0  0
+   14.0781  -12.0158    0.0000 C   0  0
+   13.0514  -12.6089    0.0000 C   0  0
+   13.0586  -13.7889    0.0000 C   0  0
+   14.0773  -14.3741    0.0000 C   0  0
+   15.0999  -13.7833    0.0000 C   0  0
+   15.1007   -9.0643    0.0000 O   0  0
+   13.0556  -10.2447    0.0000 N   0  0
+  2  3  1  0
+  4  3  1  0
+  5  4  1  0
+  6  5  1  0
+  2  7  1  0
+  7  6  2  0
+  7  8  1  0
+  8  9  2  0
+  9 10  1  0
+  6 11  1  0
+ 10 11  2  0
+  3 12  1  1
+  2 13  1  6
+M  END
+> <Index>
+15
+
+> <Case_Description>
+2 molecules, one chiral with 2 stereocenters, set to ABS, one salt fragment
+
+> <Expected_Action>
+keep largest
+
+> <Expected_CSXMILES>
+SMILES of largest fragment
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+Yes
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+1
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  8  0  0  0  0            999 V2000
+   18.1337   -5.7782    0.0000 C   0  0
+   19.1563   -5.1878    0.0000 C   0  0  2  0  0  0
+   20.1788   -5.7782    0.0000 C   0  0
+   20.1788   -6.9589    0.0000 C   0  0
+   19.1563   -7.5494    0.0000 C   0  0  2  0  0  0
+   18.1337   -6.9589    0.0000 C   0  0
+   19.1563   -4.0074    0.0000 O   0  0
+   19.1563   -8.7301    0.0000 C   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  2  7  1  1
+  5  8  1  1
+M  END
+> <Index>
+16
+
+> <Case_Description>
+achiral molecule with 2 meso stereocenters, set to RAC
+
+> <Expected_Action>
+reset to ABS
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 15 15  0  0  0  0            999 V2000
+    3.7590   -3.5339    0.0000 C   0  0
+    4.7821   -2.9436    0.0000 C   0  0
+    5.8013   -3.5333    0.0000 C   0  0
+    5.8013   -4.7148    0.0000 C   0  0
+    4.7847   -5.3043    0.0000 C   0  0
+    3.7590   -4.7201    0.0000 C   0  0
+    6.8245   -2.9426    0.0000 N   0  0
+   18.1337   -5.7782    0.0000 C   0  0
+   19.1563   -5.1878    0.0000 C   0  0  2  0  0  0
+   20.1788   -5.7782    0.0000 C   0  0
+   20.1788   -6.9589    0.0000 C   0  0
+   19.1563   -7.5494    0.0000 C   0  0  2  0  0  0
+   18.1337   -6.9589    0.0000 C   0  0
+   19.1563   -4.0074    0.0000 O   0  0
+   19.1563   -8.7301    0.0000 C   0  0
+  2  1  2  0
+  3  2  1  0
+  4  3  2  0
+  5  4  1  0
+  1  6  1  0
+  6  5  2  0
+  3  7  1  0
+  8  9  1  0
+ 10  9  1  0
+ 11 10  1  0
+ 12 11  1  0
+  8 13  1  0
+ 13 12  1  0
+  9 14  1  1
+ 12 15  1  1
+M  END
+> <Index>
+17
+
+> <Case_Description>
+2 molecules, one achiral with 2 meso stereocenters, set to RAC, one achiral with no stereocenters
+
+> <Expected_Action>
+keep largest + reset to ABS
+
+> <Expected_CSXMILES>
+SMILES of largest fragment
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  9  8  0  0  0  0            999 V2000
+   11.1875  -13.0000    0.0000 Cl  0  0
+   18.1649   -5.8094    0.0000 C   0  0
+   19.1875   -5.2190    0.0000 C   0  0  2  0  0  0
+   20.2100   -5.8094    0.0000 C   0  0
+   20.2100   -6.9902    0.0000 C   0  0
+   19.1875   -7.5806    0.0000 C   0  0  2  0  0  0
+   18.1649   -6.9902    0.0000 C   0  0
+   19.1875   -4.0387    0.0000 O   0  0
+   19.1875   -8.7613    0.0000 C   0  0
+  2  3  1  0
+  4  3  1  0
+  5  4  1  0
+  6  5  1  0
+  2  7  1  0
+  7  6  1  0
+  3  8  1  1
+  6  9  1  1
+M  END
+> <Index>
+18
+
+> <Case_Description>
+2 molecules, one achiral with 2 meso stereocenters, set to RAC, one salt fragment
+
+> <Expected_Action>
+keep largest + reset to ABS
+
+> <Expected_CSXMILES>
+SMILES of largest fragment
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+Yes
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  8  0  0  1  0            999 V2000
+   18.1649   -5.8094    0.0000 C   0  0
+   19.1875   -5.2190    0.0000 C   0  0  2  0  0  0
+   20.2100   -5.8094    0.0000 C   0  0
+   20.2100   -6.9902    0.0000 C   0  0
+   19.1875   -7.5806    0.0000 C   0  0  2  0  0  0
+   18.1649   -6.9902    0.0000 C   0  0
+   19.1875   -4.0387    0.0000 O   0  0
+   19.1875   -8.7613    0.0000 C   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  2  7  1  1
+  5  8  1  1
+M  END
+> <Index>
+19
+
+> <Case_Description>
+achiral molecule with 2 meso stereocenters, set to ABS
+
+> <Expected_Action>
+none
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+1
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 15 15  0  0  1  0            999 V2000
+    3.7903   -3.5651    0.0000 C   0  0
+    4.8134   -2.9748    0.0000 C   0  0
+    5.8326   -3.5646    0.0000 C   0  0
+    5.8326   -4.7460    0.0000 C   0  0
+    4.8159   -5.3356    0.0000 C   0  0
+    3.7903   -4.7513    0.0000 C   0  0
+    6.8558   -2.9738    0.0000 N   0  0
+   18.1649   -5.8094    0.0000 C   0  0
+   19.1875   -5.2190    0.0000 C   0  0  2  0  0  0
+   20.2100   -5.8094    0.0000 C   0  0
+   20.2100   -6.9902    0.0000 C   0  0
+   19.1875   -7.5806    0.0000 C   0  0  2  0  0  0
+   18.1649   -6.9902    0.0000 C   0  0
+   19.1875   -4.0387    0.0000 O   0  0
+   19.1875   -8.7613    0.0000 C   0  0
+  2  1  2  0
+  3  2  1  0
+  4  3  2  0
+  5  4  1  0
+  1  6  1  0
+  6  5  2  0
+  3  7  1  0
+  8  9  1  0
+ 10  9  1  0
+ 11 10  1  0
+ 12 11  1  0
+  8 13  1  0
+ 13 12  1  0
+  9 14  1  1
+ 12 15  1  1
+M  END
+> <Index>
+20
+
+> <Case_Description>
+2 molecules, one achiral with 2 meso stereocenters, set to ABS, one achiral with no stereocenters
+
+> <Expected_Action>
+keep largest
+
+> <Expected_CSXMILES>
+SMILES of largest fragment
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+1
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  9  8  0  0  1  0            999 V2000
+   18.1649   -5.8094    0.0000 C   0  0
+   19.1875   -5.2190    0.0000 C   0  0  2  0  0  0
+   20.2100   -5.8094    0.0000 C   0  0
+   20.2100   -6.9902    0.0000 C   0  0
+   19.1875   -7.5806    0.0000 C   0  0  2  0  0  0
+   18.1649   -6.9902    0.0000 C   0  0
+   19.1875   -4.0387    0.0000 O   0  0
+   19.1875   -8.7613    0.0000 C   0  0
+   11.1875  -13.0000    0.0000 Cl  0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  2  7  1  1
+  5  8  1  1
+M  END
+> <Index>
+21
+
+> <Case_Description>
+2 molecules, one achiral with 2 meso stereocenters, set to ABS, one salt fragment
+
+> <Expected_Action>
+keep largest
+
+> <Expected_CSXMILES>
+SMILES of largest fragment
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+2
+
+> <Salt>
+Yes
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+1
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  7  7  0  0  0  0            999 V2000
+   20.3840   -4.3151    0.0000 C   0  0
+   21.4071   -3.7248    0.0000 C   0  0
+   22.4263   -4.3146    0.0000 C   0  0
+   22.4263   -5.4960    0.0000 C   0  0
+   21.4097   -6.0856    0.0000 C   0  0
+   20.3840   -5.5013    0.0000 C   0  0
+   23.4495   -3.7238    0.0000 N   0  0
+  2  1  2  0
+  3  2  1  0
+  4  3  2  0
+  5  4  1  0
+  1  6  1  0
+  6  5  2  0
+  3  7  1  0
+M  END
+> <Index>
+22
+
+> <Case_Description>
+V3000 achiral molecule with no stereocenters
+
+> <Expected_Action>
+none
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+0
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  SciTegic02172313562D
+
+  7  7  0  0  0  0            999 V2000
+   13.5709   -6.1156    0.0000 C   0  0
+   14.5938   -5.5251    0.0000 C   0  0  1  0  0  0
+   14.5938   -4.3443    0.0000 O   0  0
+   15.6166   -6.1156    0.0000 C   0  0
+   15.6166   -7.2967    0.0000 N   0  0
+   14.5938   -7.8873    0.0000 C   0  0
+   13.5709   -7.2967    0.0000 C   0  0
+  1  2  1  0
+  2  3  1  1
+  4  2  1  0
+  5  4  1  0
+  6  5  1  0
+  7  6  1  0
+  1  7  1  0
+M  END
+> <Index>
+23
+
+> <Case_Description>
+V3000 chiral molecule with 1 stereocenter, set to RAC
+
+> <Expected_Action>
+flatten stereo bond
+
+> <Expected_CSXMILES>
+SMILES without @
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+1
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  0  0  0  0  0  0            999 V3000
+M  V30 BEGIN CTAB
+M  V30 COUNTS 7 7 0 0 0
+M  V30 BEGIN ATOM
+M  V30 1 C 13.5709 -6.1156 0 0
+M  V30 2 C 14.5938 -5.5251 0 0 CFG=1
+M  V30 3 O 14.5938 -4.3443 0 0
+M  V30 4 C 15.6166 -6.1156 0 0
+M  V30 5 N 15.6166 -7.2967 0 0
+M  V30 6 C 14.5938 -7.8873 0 0
+M  V30 7 C 13.5709 -7.2967 0 0
+M  V30 END ATOM
+M  V30 BEGIN BOND
+M  V30 1 1 1 2
+M  V30 2 1 2 3 CFG=1
+M  V30 3 1 4 2
+M  V30 4 1 5 4
+M  V30 5 1 6 5
+M  V30 6 1 7 6
+M  V30 7 1 1 7
+M  V30 END BOND
+M  V30 BEGIN COLLECTION
+M  V30 MDLV30/STEREL1 ATOMS=(1 2) 
+M  V30 END COLLECTION
+M  V30 END CTAB
+M  END
+> <Index>
+24
+
+> <Case_Description>
+V3000 chiral molecule with 1 stereocenter, set to OR
+
+> <Expected_Action>
+fail molecule (to do whenever there is even just 1 OR)
+
+> <Expected_CSXMILES>
+NA
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+1
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  7  7  0  0  1  0            999 V2000
+   13.5709   -6.1156    0.0000 C   0  0
+   14.5938   -5.5251    0.0000 C   0  0  1  0  0  0
+   14.5938   -4.3443    0.0000 O   0  0
+   15.6166   -6.1156    0.0000 C   0  0
+   15.6166   -7.2967    0.0000 N   0  0
+   14.5938   -7.8873    0.0000 C   0  0
+   13.5709   -7.2967    0.0000 C   0  0
+  1  2  1  0
+  2  3  1  1
+  4  2  1  0
+  5  4  1  0
+  6  5  1  0
+  7  6  1  0
+  1  7  1  0
+M  END
+> <Index>
+25
+
+> <Case_Description>
+V3000 chiral molecule with 1 stereocenter, set to ABS
+
+> <Expected_Action>
+none
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+1
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+ 12 13  0  0  0  0            999 V2000
+    3.0116   -3.3732    0.0000 C   0  0  2  0  0  0
+    4.0342   -2.7828    0.0000 C   0  0  2  0  0  0
+    5.0568   -3.3732    0.0000 C   0  0
+    5.0568   -4.5540    0.0000 N   0  0
+    4.0342   -5.1444    0.0000 C   0  0
+    3.0116   -4.5540    0.0000 C   0  0
+    1.9849   -5.1471    0.0000 C   0  0
+    1.9921   -6.3271    0.0000 C   0  0
+    3.0108   -6.9124    0.0000 C   0  0
+    4.0334   -6.3215    0.0000 C   0  0
+    4.0342   -1.6024    0.0000 O   0  0
+    1.9891   -2.7829    0.0000 N   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  5 10  1  0
+  9 10  2  0
+  2 11  1  1
+  1 12  1  6
+M  END
+> <Index>
+26
+
+> <Case_Description>
+chiral molecule with 2 stereocenters, set to RAC
+
+> <Expected_Action>
+take chirality flag into account
+
+> <Expected_CSXMILES>
+SMILES + &1 with atom indices of stereocenters
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  SciTegic02172313562D
+
+ 12 13  0  0  1  0            999 V2000
+    6.6990   -5.9979    0.0000 C   0  0  2  0  0  0
+    7.7219   -5.4073    0.0000 C   0  0  2  0  0  0
+    8.7448   -5.9979    0.0000 C   0  0
+    8.7448   -7.1790    0.0000 N   0  0
+    7.7219   -7.7696    0.0000 C   0  0
+    6.6990   -7.1790    0.0000 C   0  0
+    5.6720   -7.7723    0.0000 C   0  0
+    5.6792   -8.9527    0.0000 C   0  0
+    6.6982   -9.5381    0.0000 C   0  0
+    7.7211   -8.9471    0.0000 C   0  0
+    7.7219   -4.2266    0.0000 O   0  0
+    5.6762   -5.4074    0.0000 N   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  2  0
+  6  7  1  0
+  7  8  2  0
+  8  9  1  0
+  5 10  1  0
+  9 10  2  0
+  2 11  1  1
+  1 12  1  6
+M  END
+> <Index>
+27
+
+> <Case_Description>
+chiral molecule with 2 stereocenters, set to ABS
+
+> <Expected_Action>
+none
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  8  0  0  0  0            999 V2000
+   14.2584   -5.0344    0.0000 C   0  0
+   15.2813   -4.4439    0.0000 C   0  0  2  0  0  0
+   16.3041   -5.0344    0.0000 C   0  0
+   16.3041   -6.2156    0.0000 C   0  0
+   15.2813   -6.8061    0.0000 C   0  0  2  0  0  0
+   14.2584   -6.2156    0.0000 C   0  0
+   15.2813   -3.2632    0.0000 O   0  0
+   15.2813   -7.9868    0.0000 C   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  2  7  1  1
+  5  8  1  1
+M  END
+> <Index>
+28
+
+> <Case_Description>
+achiral molecule with 2 meso stereocenters, set to RAC
+
+> <Expected_Action>
+reset to ABS
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  8  0  0  1  0            999 V2000
+   14.2584   -5.0344    0.0000 C   0  0
+   15.2813   -4.4439    0.0000 C   0  0  2  0  0  0
+   16.3041   -5.0344    0.0000 C   0  0
+   16.3041   -6.2156    0.0000 C   0  0
+   15.2813   -6.8061    0.0000 C   0  0  2  0  0  0
+   14.2584   -6.2156    0.0000 C   0  0
+   15.2813   -3.2632    0.0000 O   0  0
+   15.2813   -7.9868    0.0000 C   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  2  7  1  1
+  5  8  1  1
+M  END
+> <Index>
+29
+
+> <Case_Description>
+achiral molecule with 2 meso stereocenters, set to ABS
+
+> <Expected_Action>
+none
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  0  0  0  0  0  0            999 V3000
+M  V30 BEGIN CTAB
+M  V30 COUNTS 12 13 0 0 0
+M  V30 BEGIN ATOM
+M  V30 1 C 6.699 -5.9979 0 0 CFG=2
+M  V30 2 C 7.7219 -5.4073 0 0 CFG=2
+M  V30 3 C 8.7448 -5.9979 0 0
+M  V30 4 N 8.7448 -7.179 0 0
+M  V30 5 C 7.7219 -7.7696 0 0
+M  V30 6 C 6.699 -7.179 0 0
+M  V30 7 C 5.672 -7.7723 0 0
+M  V30 8 C 5.6792 -8.9527 0 0
+M  V30 9 C 6.6982 -9.5381 0 0
+M  V30 10 C 7.7211 -8.9471 0 0
+M  V30 11 O 7.7219 -4.2266 0 0
+M  V30 12 N 5.6762 -5.4074 0 0
+M  V30 END ATOM
+M  V30 BEGIN BOND
+M  V30 1 1 1 2
+M  V30 2 1 3 2
+M  V30 3 1 4 3
+M  V30 4 1 5 4
+M  V30 5 1 1 6
+M  V30 6 2 6 5
+M  V30 7 1 6 7
+M  V30 8 2 7 8
+M  V30 9 1 8 9
+M  V30 10 1 5 10
+M  V30 11 2 9 10
+M  V30 12 1 2 11 CFG=1
+M  V30 13 1 1 12 CFG=3
+M  V30 END BOND
+M  V30 BEGIN COLLECTION
+M  V30 MDLV30/STEABS ATOMS=(1 2) 
+M  V30 MDLV30/STERAC1 ATOMS=(1 1) 
+M  V30 END COLLECTION
+M  V30 END CTAB
+M  END
+> <Index>
+30
+
+> <Case_Description>
+chiral molecule with 1 stereocenter set to ABS, 1 set to RAC
+
+> <Expected_Action>
+flatten RAC stereocenter
+
+> <Expected_CSXMILES>
+SMILES with @'s removed for RAC stereocenter
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  SciTegic02172313562D
+
+  0  0  0  0  0  0            999 V3000
+M  V30 BEGIN CTAB
+M  V30 COUNTS 18 20 0 0 0
+M  V30 BEGIN ATOM
+M  V30 1 C 7.7219 -5.4073 0 0 CFG=2
+M  V30 2 C 9.7679 -7.7698 0 0 CFG=1
+M  V30 3 C 11.8142 -8.9512 0 0 CFG=2
+M  V30 4 C 6.699 -5.9979 0 0
+M  V30 5 C 8.7448 -5.9979 0 0
+M  V30 6 N 8.7448 -7.179 0 0
+M  V30 7 C 7.7219 -7.7696 0 0
+M  V30 8 C 6.699 -7.179 0 0
+M  V30 9 C 5.672 -7.7723 0 0
+M  V30 10 C 5.6792 -8.9527 0 0
+M  V30 11 C 6.6982 -9.5381 0 0
+M  V30 12 C 7.7211 -8.9471 0 0
+M  V30 13 O 7.7219 -4.2266 0 0
+M  V30 14 C 10.7911 -7.179 0 0
+M  V30 15 C 11.8142 -7.7698 0 0
+M  V30 16 C 10.7911 -9.5419 0 0
+M  V30 17 C 9.7679 -8.9512 0 0
+M  V30 18 O 12.8374 -9.5419 0 0
+M  V30 END ATOM
+M  V30 BEGIN BOND
+M  V30 1 1 4 1
+M  V30 2 1 5 1
+M  V30 3 1 6 5
+M  V30 4 1 2 6 CFG=1
+M  V30 5 1 7 6
+M  V30 6 1 4 8
+M  V30 7 2 8 7
+M  V30 8 1 8 9
+M  V30 9 2 9 10
+M  V30 10 1 10 11
+M  V30 11 1 7 12
+M  V30 12 2 11 12
+M  V30 13 1 1 13 CFG=1
+M  V30 14 1 14 2
+M  V30 15 1 3 15
+M  V30 16 1 15 14
+M  V30 17 1 16 3
+M  V30 18 1 17 16
+M  V30 19 1 2 17
+M  V30 20 1 3 18 CFG=1
+M  V30 END BOND
+M  V30 BEGIN COLLECTION
+M  V30 MDLV30/STEABS ATOMS=(2 2 3) 
+M  V30 MDLV30/STERAC1 ATOMS=(1 1) 
+M  V30 END COLLECTION
+M  V30 END CTAB
+M  END
+> <Index>
+31
+
+> <Case_Description>
+chiral molecule with 2 meso stereocenters set to ABS, 1 normal stereocenter set to RAC
+
+> <Expected_Action>
+flatten RAC stereocenter
+
+> <Expected_CSXMILES>
+SMILES with @'s removed for RAC stereocenter
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+3
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  SciTegic02172313562D
+
+  0  0  0  0  0  0            999 V3000
+M  V30 BEGIN CTAB
+M  V30 COUNTS 18 20 0 0 0
+M  V30 BEGIN ATOM
+M  V30 1 C 7.7219 -5.4073 0 0 CFG=2
+M  V30 2 C 9.7679 -7.7698 0 0 CFG=1
+M  V30 3 C 11.8142 -8.9512 0 0 CFG=2
+M  V30 4 C 6.699 -5.9979 0 0
+M  V30 5 C 8.7448 -5.9979 0 0
+M  V30 6 N 8.7448 -7.179 0 0
+M  V30 7 C 7.7219 -7.7696 0 0
+M  V30 8 C 6.699 -7.179 0 0
+M  V30 9 C 5.672 -7.7723 0 0
+M  V30 10 C 5.6792 -8.9527 0 0
+M  V30 11 C 6.6982 -9.5381 0 0
+M  V30 12 C 7.7211 -8.9471 0 0
+M  V30 13 O 7.7219 -4.2266 0 0
+M  V30 14 C 10.7911 -7.179 0 0
+M  V30 15 C 11.8142 -7.7698 0 0
+M  V30 16 C 10.7911 -9.5419 0 0
+M  V30 17 C 9.7679 -8.9512 0 0
+M  V30 18 O 12.8374 -9.5419 0 0
+M  V30 END ATOM
+M  V30 BEGIN BOND
+M  V30 1 1 4 1
+M  V30 2 1 5 1
+M  V30 3 1 6 5
+M  V30 4 1 2 6 CFG=1
+M  V30 5 1 7 6
+M  V30 6 1 4 8
+M  V30 7 2 8 7
+M  V30 8 1 8 9
+M  V30 9 2 9 10
+M  V30 10 1 10 11
+M  V30 11 1 7 12
+M  V30 12 2 11 12
+M  V30 13 1 1 13 CFG=1
+M  V30 14 1 14 2
+M  V30 15 1 3 15
+M  V30 16 1 15 14
+M  V30 17 1 16 3
+M  V30 18 1 17 16
+M  V30 19 1 2 17
+M  V30 20 1 3 18 CFG=1
+M  V30 END BOND
+M  V30 BEGIN COLLECTION
+M  V30 MDLV30/STERAC1 ATOMS=(1 1) 
+M  V30 MDLV30/STERAC2 ATOMS=(2 2 3) 
+M  V30 END COLLECTION
+M  V30 END CTAB
+M  END
+> <Index>
+32
+
+> <Case_Description>
+chiral molecule with 2 meso stereocenters set to RAC, 1 normal stereocenter set to RAC in another group
+
+> <Expected_Action>
+reset meso to ABS + flatten RAC stereocenter
+
+> <Expected_CSXMILES>
+SMILES with @'s removed for RAC stereocenter
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+3
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  SciTegic02172313562D
+
+ 18 20  0  0  0  0            999 V2000
+    7.7219   -5.4073    0.0000 C   0  0  2  0  0  0
+    9.7679   -7.7698    0.0000 C   0  0  1  0  0  0
+   11.8142   -8.9512    0.0000 C   0  0  2  0  0  0
+    6.6990   -5.9979    0.0000 C   0  0
+    8.7448   -5.9979    0.0000 C   0  0
+    8.7448   -7.1790    0.0000 N   0  0
+    7.7219   -7.7696    0.0000 C   0  0
+    6.6990   -7.1790    0.0000 C   0  0
+    5.6720   -7.7723    0.0000 C   0  0
+    5.6792   -8.9527    0.0000 C   0  0
+    6.6982   -9.5381    0.0000 C   0  0
+    7.7211   -8.9471    0.0000 C   0  0
+    7.7219   -4.2266    0.0000 O   0  0
+   10.7911   -7.1790    0.0000 C   0  0
+   11.8142   -7.7698    0.0000 C   0  0
+   10.7911   -9.5419    0.0000 C   0  0
+    9.7679   -8.9512    0.0000 C   0  0
+   12.8374   -9.5419    0.0000 O   0  0
+  4  1  1  0
+  5  1  1  0
+  6  5  1  0
+  2  6  1  1
+  7  6  1  0
+  4  8  1  0
+  8  7  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+  7 12  1  0
+ 11 12  2  0
+  1 13  1  1
+ 14  2  1  0
+  3 15  1  0
+ 15 14  1  0
+ 16  3  1  0
+ 17 16  1  0
+  2 17  1  0
+  3 18  1  1
+M  END
+> <Index>
+33
+
+> <Case_Description>
+chiral molecule with 2 meso stereocenters and 1 normal stereocenter all set to RAC in the same group
+
+> <Expected_Action>
+reset meso to ABS + flatten RAC stereocenter
+
+> <Expected_CSXMILES>
+SMILES with @'s removed for RAC stereocenter
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+3
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  SciTegic02172313562D
+
+ 18 20  0  0  0  0            999 V2000
+    7.7219   -5.4073    0.0000 C   0  0  2  0  0  0
+    9.7679   -7.7698    0.0000 C   0  0  1  0  0  0
+   11.8142   -8.9512    0.0000 C   0  0  2  0  0  0
+    6.6990   -5.9979    0.0000 C   0  0
+    8.7448   -5.9979    0.0000 C   0  0
+    8.7448   -7.1790    0.0000 N   0  0
+    7.7219   -7.7696    0.0000 C   0  0
+    6.6990   -7.1790    0.0000 C   0  0
+    5.6720   -7.7723    0.0000 C   0  0
+    5.6792   -8.9527    0.0000 C   0  0
+    6.6982   -9.5381    0.0000 C   0  0
+    7.7211   -8.9471    0.0000 C   0  0
+    7.7219   -4.2266    0.0000 O   0  0
+   10.7911   -7.1790    0.0000 C   0  0
+   11.8142   -7.7698    0.0000 C   0  0
+   10.7911   -9.5419    0.0000 C   0  0
+    9.7679   -8.9512    0.0000 C   0  0
+   12.8374   -9.5419    0.0000 O   0  0
+  4  1  1  0
+  5  1  1  0
+  6  5  1  0
+  2  6  1  1
+  7  6  1  0
+  4  8  1  0
+  8  7  2  0
+  8  9  1  0
+  9 10  2  0
+ 10 11  1  0
+  7 12  1  0
+ 11 12  2  0
+  1 13  1  1
+ 14  2  1  0
+  3 15  1  0
+ 15 14  1  0
+ 16  3  1  0
+ 17 16  1  0
+  2 17  1  0
+  3 18  1  1
+M  END
+> <Index>
+34
+
+> <Case_Description>
+chiral molecule with 2 meso stereocenters and 1 normal stereocenter all set to RAC in the same group
+
+> <Expected_Action>
+reset meso to ABS + flatten RAC stereocenter
+
+> <Expected_CSXMILES>
+SMILES with @'s removed for RAC stereocenter
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+3
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  0  0  0  0  0  0            999 V3000
+M  V30 BEGIN CTAB
+M  V30 COUNTS 19 21 0 0 0
+M  V30 BEGIN ATOM
+M  V30 1 C 2.5403 -6.0964 0 0
+M  V30 2 C 3.5634 -5.5061 0 0
+M  V30 3 C 4.5826 -6.0958 0 0
+M  V30 4 C 4.5826 -7.2773 0 0
+M  V30 5 C 3.5659 -7.8668 0 0
+M  V30 6 C 2.5403 -7.2826 0 0
+M  V30 7 C 5.6058 -5.5051 0 0 CFG=1
+M  V30 8 C 6.629 -6.0959 0 0 CFG=2
+M  V30 9 C 6.629 -7.2773 0 0
+M  V30 10 N 5.6058 -7.868 0 0
+M  V30 11 O 5.6058 -4.3237 0 0
+M  V30 12 O 7.6521 -5.5051 0 0
+M  V30 13 C 5.6058 -9.0495 0 0 CFG=1
+M  V30 14 C 6.6289 -9.6402 0 0
+M  V30 15 C 6.6289 -10.8216 0 0
+M  V30 16 C 5.6057 -11.4123 0 0 CFG=2
+M  V30 17 C 4.5826 -10.8216 0 0
+M  V30 18 C 4.5826 -9.6402 0 0
+M  V30 19 O 5.6057 -12.5938 0 0
+M  V30 END ATOM
+M  V30 BEGIN BOND
+M  V30 1 2 2 1
+M  V30 2 1 3 2
+M  V30 3 2 4 3
+M  V30 4 1 5 4
+M  V30 5 1 1 6
+M  V30 6 2 6 5
+M  V30 7 1 3 7
+M  V30 8 1 8 7
+M  V30 9 1 9 8
+M  V30 10 1 10 9
+M  V30 11 1 4 10
+M  V30 12 1 7 11 CFG=3
+M  V30 13 1 8 12 CFG=1
+M  V30 14 1 13 10 CFG=1
+M  V30 15 1 14 13
+M  V30 16 1 15 14
+M  V30 17 1 16 15
+M  V30 18 1 17 16
+M  V30 19 1 18 17
+M  V30 20 1 13 18
+M  V30 21 1 16 19 CFG=1
+M  V30 END BOND
+M  V30 BEGIN COLLECTION
+M  V30 MDLV30/STEABS ATOMS=(2 13 16) 
+M  V30 MDLV30/STERAC1 ATOMS=(2 7 8) 
+M  V30 END COLLECTION
+M  V30 END CTAB
+M  END
+> <Index>
+35
+
+> <Case_Description>
+chiral molecule with 2 meso stereocenters set to ABS, 2 normal stereocenters set to RAC in another group
+
+> <Expected_Action>
+take enhanced stereo into account
+
+> <Expected_CSXMILES>
+SMILES with all @'s + 'a' for meso, '&' for other stereocenters
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+4
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  SciTegic02172313562D
+
+  0  0  0  0  0  0            999 V3000
+M  V30 BEGIN CTAB
+M  V30 COUNTS 19 21 0 0 0
+M  V30 BEGIN ATOM
+M  V30 1 C 2.5403 -6.0964 0 0
+M  V30 2 C 3.5634 -5.5061 0 0
+M  V30 3 C 4.5826 -6.0958 0 0
+M  V30 4 C 4.5826 -7.2773 0 0
+M  V30 5 C 3.5659 -7.8668 0 0
+M  V30 6 C 2.5403 -7.2826 0 0
+M  V30 7 C 5.6058 -5.5051 0 0 CFG=1
+M  V30 8 C 6.629 -6.0959 0 0 CFG=2
+M  V30 9 C 6.629 -7.2773 0 0
+M  V30 10 N 5.6058 -7.868 0 0
+M  V30 11 O 5.6058 -4.3237 0 0
+M  V30 12 O 7.6521 -5.5051 0 0
+M  V30 13 C 5.6058 -9.0495 0 0 CFG=1
+M  V30 14 C 6.6289 -9.6402 0 0
+M  V30 15 C 6.6289 -10.8216 0 0
+M  V30 16 C 5.6057 -11.4123 0 0 CFG=2
+M  V30 17 C 4.5826 -10.8216 0 0
+M  V30 18 C 4.5826 -9.6402 0 0
+M  V30 19 O 5.6057 -12.5938 0 0
+M  V30 END ATOM
+M  V30 BEGIN BOND
+M  V30 1 2 2 1
+M  V30 2 1 3 2
+M  V30 3 2 4 3
+M  V30 4 1 5 4
+M  V30 5 1 1 6
+M  V30 6 2 6 5
+M  V30 7 1 3 7
+M  V30 8 1 8 7
+M  V30 9 1 9 8
+M  V30 10 1 10 9
+M  V30 11 1 4 10
+M  V30 12 1 7 11 CFG=3
+M  V30 13 1 8 12 CFG=1
+M  V30 14 1 13 10 CFG=1
+M  V30 15 1 14 13
+M  V30 16 1 15 14
+M  V30 17 1 16 15
+M  V30 18 1 17 16
+M  V30 19 1 18 17
+M  V30 20 1 13 18
+M  V30 21 1 16 19 CFG=1
+M  V30 END BOND
+M  V30 BEGIN COLLECTION
+M  V30 MDLV30/STERAC1 ATOMS=(2 7 8) 
+M  V30 MDLV30/STERAC2 ATOMS=(2 13 16) 
+M  V30 END COLLECTION
+M  V30 END CTAB
+M  END
+> <Index>
+36
+
+> <Case_Description>
+chiral molecule with 2 meso stereocenters set to RAC, 2 normal stereocenters set to RAC in another group
+
+> <Expected_Action>
+reset meso to ABS + take enhanced stereo into account
+
+> <Expected_CSXMILES>
+SMILES with all @'s + 'a' for meso, '&' for other stereocenters
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+4
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  SciTegic02172313562D
+
+ 19 21  0  0  0  0            999 V2000
+    2.5403   -6.0964    0.0000 C   0  0
+    3.5634   -5.5061    0.0000 C   0  0
+    4.5826   -6.0958    0.0000 C   0  0
+    4.5826   -7.2773    0.0000 C   0  0
+    3.5659   -7.8668    0.0000 C   0  0
+    2.5403   -7.2826    0.0000 C   0  0
+    5.6058   -5.5051    0.0000 C   0  0  1  0  0  0
+    6.6290   -6.0959    0.0000 C   0  0  2  0  0  0
+    6.6290   -7.2773    0.0000 C   0  0
+    5.6058   -7.8680    0.0000 N   0  0
+    5.6058   -4.3237    0.0000 O   0  0
+    7.6521   -5.5051    0.0000 O   0  0
+    5.6058   -9.0495    0.0000 C   0  0  1  0  0  0
+    6.6289   -9.6402    0.0000 C   0  0
+    6.6289  -10.8216    0.0000 C   0  0
+    5.6057  -11.4123    0.0000 C   0  0  2  0  0  0
+    4.5826  -10.8216    0.0000 C   0  0
+    4.5826   -9.6402    0.0000 C   0  0
+    5.6057  -12.5938    0.0000 O   0  0
+  2  1  2  0
+  3  2  1  0
+  4  3  2  0
+  5  4  1  0
+  1  6  1  0
+  6  5  2  0
+  3  7  1  0
+  8  7  1  0
+  9  8  1  0
+ 10  9  1  0
+  4 10  1  0
+  7 11  1  6
+  8 12  1  1
+ 13 10  1  1
+ 14 13  1  0
+ 15 14  1  0
+ 16 15  1  0
+ 17 16  1  0
+ 18 17  1  0
+ 13 18  1  0
+ 16 19  1  1
+M  END
+> <Index>
+37
+
+> <Case_Description>
+chiral molecule with 2 meso stereocenters set to RAC, 2 normal stereocenters set to RAC in the same group
+
+> <Expected_Action>
+reset meso to ABS + take enhanced stereo into account
+
+> <Expected_CSXMILES>
+SMILES with all @'s + 'a' for meso, '&' for other stereocenters
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+4
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  8  0  0  0  0            999 V2000
+    7.1022   -6.1907    0.0000 C   0  0
+    8.1250   -5.6001    0.0000 C   0  0
+    9.1478   -6.1907    0.0000 C   0  0  2  0  0  0
+    9.1478   -7.3718    0.0000 C   0  0  2  0  0  0
+    8.1250   -7.9624    0.0000 C   0  0
+    7.1022   -7.3718    0.0000 C   0  0
+   10.1704   -5.6003    0.0000 O   0  0
+   10.1704   -7.9622    0.0000 O   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  3  7  1  1
+  4  8  1  1
+M  END
+> <Index>
+38
+
+> <Case_Description>
+special case of achiral molecule with 2 meso stereocenters NOT on plane of symmetry, V2000 chiralflag 0
+
+> <Expected_Action>
+reset to ABS
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  8  0  0  0  0            999 V2000
+    7.1022   -6.1907    0.0000 C   0  0
+    8.1250   -5.6001    0.0000 C   0  0
+    9.1478   -6.1907    0.0000 C   0  0  2  0  0  0
+    9.1478   -7.3718    0.0000 C   0  0  2  0  0  0
+    8.1250   -7.9624    0.0000 C   0  0
+    7.1022   -7.3718    0.0000 C   0  0
+   10.1704   -5.6003    0.0000 O   0  0
+   10.1704   -7.9622    0.0000 O   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  3  7  1  1
+  4  8  1  1
+M  END
+> <Index>
+39
+
+> <Case_Description>
+special case of achiral molecule with 2 meso stereocenters NOT on plane of symmetry, V3000 set to RAC
+
+> <Expected_Action>
+reset meso to ABS
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  8  0  0  1  0            999 V2000
+   10.6334   -8.9844    0.0000 C   0  0
+   11.6563   -8.3939    0.0000 C   0  0
+   12.6791   -8.9844    0.0000 C   0  0  2  0  0  0
+   12.6791  -10.1656    0.0000 C   0  0  2  0  0  0
+   11.6563  -10.7561    0.0000 C   0  0
+   10.6334  -10.1656    0.0000 C   0  0
+   13.7016   -8.3941    0.0000 O   0  0
+   13.7016  -10.7559    0.0000 O   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  3  7  1  1
+  4  8  1  1
+M  END
+> <Index>
+40
+
+> <Case_Description>
+special case of achiral molecule with 2 meso stereocenters NOT on plane of symmetry, V3000 set to ABS
+
+> <Expected_Action>
+none
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  8  0  0  0  0            999 V2000
+   10.6334   -8.9844    0.0000 C   0  0
+   11.6563   -8.3939    0.0000 C   0  0
+   12.6791   -8.9844    0.0000 C   0  0  2  0  0  0
+   12.6791  -10.1656    0.0000 C   0  0  2  0  0  0
+   11.6563  -10.7561    0.0000 C   0  0
+   10.6334  -10.1656    0.0000 O   0  0
+   13.7016   -8.3941    0.0000 O   0  0
+   13.7016  -10.7559    0.0000 N   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  3  7  1  1
+  4  8  1  1
+M  END
+> <Index>
+41
+
+> <Case_Description>
+chiral molecule with 2 stereocenters, set to RAC
+
+> <Expected_Action>
+take chirality flag into account
+
+> <Expected_CSXMILES>
+SMILES + &1 with atom indices of stereocenters
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  SciTegic02172313562D
+
+  8  8  0  0  0  0            999 V2000
+   10.6334   -8.9844    0.0000 C   0  0
+   11.6563   -8.3939    0.0000 C   0  0
+   12.6791   -8.9844    0.0000 C   0  0  1  0  0  0
+   12.6791  -10.1656    0.0000 C   0  0  1  0  0  0
+   11.6563  -10.7561    0.0000 C   0  0
+   10.6334  -10.1656    0.0000 O   0  0
+   13.7016   -8.3941    0.0000 O   0  0
+   13.7016  -10.7559    0.0000 N   0  0
+  1  2  1  0
+  3  2  1  0
+  4  3  1  0
+  5  4  1  0
+  1  6  1  0
+  6  5  1  0
+  3  7  1  6
+  4  8  1  6
+M  END
+> <Index>
+42
+
+> <Case_Description>
+chiral molecule with 2 stereocenters, set to RAC, inverted compared to the above (but equivalent bcs RAC)
+
+> <Expected_Action>
+take chirality flag into account; see @ and @@ order
+
+> <Expected_CSXMILES>
+SMILES + &1 with atom indices of stereocenters
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+2
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  ACCLDraw06202415342D
+
+  0  0  0     0  0            999 V3000
+M  V30 BEGIN CTAB
+M  V30 COUNTS 29 30 0 0 0
+M  V30 BEGIN ATOM
+M  V30 1 C 9.2278 -6.4401 0 0 
+M  V30 2 C 10.2509 -5.8498 0 0 
+M  V30 3 C 11.2701 -6.4396 0 0 
+M  V30 4 C 11.2701 -7.621 0 0 
+M  V30 5 C 10.2534 -8.2106 0 0 
+M  V30 6 C 9.2278 -7.6263 0 0 
+M  V30 7 C 12.2933 -8.2117 0 0 
+M  V30 8 C 13.3167 -7.6213 0 0 
+M  V30 9 C 14.3362 -8.2112 0 0 
+M  V30 10 C 14.3362 -9.393 0 0 
+M  V30 11 C 13.3192 -9.9827 0 0 
+M  V30 12 C 12.2933 -9.3983 0 0 
+M  V30 13 O 12.2933 -5.8488 0 0 
+M  V30 14 I 10.2534 -9.3921 0 0 
+M  V30 15 Br 11.2701 -9.989 0 0 
+M  V30 16 C 13.3192 -11.1642 0 0 
+M  V30 17 C 14.3424 -11.7549 0 0 CFG=2 
+M  V30 18 C 14.3424 -12.9364 0 0 CFG=2 
+M  V30 19 O 15.3656 -11.1642 0 0 
+M  V30 20 C 15.3656 -13.5271 0 0 
+M  V30 21 O 13.3192 -13.5271 0 0 
+M  V30 22 C 8.2046 -5.8494 0 0 CFG=1 
+M  V30 23 C 7.1814 -6.4401 0 0 
+M  V30 24 O 8.2046 -4.668 0 0 
+M  V30 25 C 12.2933 -4.6674 0 0 CFG=2 
+M  V30 26 C 13.3164 -4.0767 0 0 CFG=1 
+M  V30 27 C 13.3164 -2.8952 0 0 
+M  V30 28 Cl 11.2701 -4.0767 0 0 
+M  V30 29 Cl 14.3396 -4.6674 0 0 
+M  V30 END ATOM
+M  V30 BEGIN BOND
+M  V30 1 2 2 1 
+M  V30 2 1 3 2 
+M  V30 3 2 4 3 
+M  V30 4 1 5 4 
+M  V30 5 1 1 6 
+M  V30 6 2 6 5 
+M  V30 7 1 4 7 
+M  V30 8 2 8 7 
+M  V30 9 1 9 8 
+M  V30 10 2 10 9 
+M  V30 11 1 11 10 
+M  V30 12 2 12 11 
+M  V30 13 1 7 12 CFG=1 
+M  V30 14 1 3 13 
+M  V30 15 1 5 14 
+M  V30 16 1 12 15 
+M  V30 17 1 11 16 
+M  V30 18 1 16 17 
+M  V30 19 1 17 18 
+M  V30 20 1 17 19 CFG=1 
+M  V30 21 1 18 20 
+M  V30 22 1 18 21 CFG=3 
+M  V30 23 1 1 22 
+M  V30 24 1 22 23 
+M  V30 25 1 22 24 CFG=1 
+M  V30 26 1 13 25 
+M  V30 27 1 25 26 
+M  V30 28 1 26 27 
+M  V30 29 1 25 28 CFG=1 
+M  V30 30 1 26 29 CFG=1 
+M  V30 END BOND
+M  V30 BEGIN COLLECTION
+M  V30 MDLV30/STEABS ATOMS=(2 7 22)
+M  V30 MDLV30/STERAC1 ATOMS=(2 17 18)
+M  V30 MDLV30/STERAC2 ATOMS=(2 26 25)
+M  V30 END COLLECTION
+M  V30 END CTAB
+M  END
+> <Index>
+43
+
+> <Case_Description>
+V3000 CTAB with absolute atropoisomer bond, one absolute sp3 stereocenter, two 'and' stereogroups
+
+> <Expected_Action>
+inclusion of wU and wD flags in the enhanced stereo section of CXSMILES to encode absolute atropoisomerism, however lost by current version of the standardisation
+
+> <Expected_CSXMILES>
+SMILES + enhanced 'a' and '&' stereo flags only, not 'wU' or 'wD'
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V3000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+6
+
+> <Chirality_Flag>
+NA
+
+> <Enhanced_Stereo>
+Yes
+
+$$$$
+
+  ACCLDraw06212410092D
+
+ 14 15  0  0  0  0  0  0  0  0999 V2000
+    8.6965   -5.2839    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7196   -4.6936    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7388   -5.2833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7388   -6.4648    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7222   -7.0543    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6965   -6.4701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.7620   -7.0555    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7854   -6.4650    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8050   -7.0549    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8050   -8.2367    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7880   -8.8265    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.7620   -8.2420    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7854   -5.2836    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7222   -8.2358    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0  0  0  0
+  3  2  1  0  0  0  0
+  4  3  2  0  0  0  0
+  5  4  1  0  0  0  0
+  1  6  1  0  0  0  0
+  6  5  2  0  0  0  0
+  4  7  1  0  0  0  0
+  8  7  2  0  0  0  0
+  9  8  1  0  0  0  0
+ 10  9  2  0  0  0  0
+ 11 10  1  0  0  0  0
+ 12 11  2  0  0  0  0
+  7 12  1  1  0  0  0
+  8 13  1  0  0  0  0
+  5 14  1  0  0  0  0
+M  END
+> <Index>
+44
+
+> <Case_Description>
+V2000 CTAB with atropoisomer bond and chirality flag 0
+
+> <Expected_Action>
+application of the 'and' stereo to atropoisomer-related atoms, i.e. use of wU and wD flags in the enhanced stereo section of CXSMILES to encode absolute atropoisomerism, plus inclusion of the atropoisomeric atoms in the '&' list; however lost by current version of the standardisation
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+0
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$
+
+  ACCLDraw06212410362D
+
+ 18 19  0  0  0  0  0  0  0  0999 V2000
+    8.6965   -5.2839    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7196   -4.6936    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7388   -5.2833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7388   -6.4648    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7222   -7.0543    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6965   -6.4701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.7620   -7.0555    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7854   -6.4650    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8050   -7.0549    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8050   -8.2367    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7880   -8.8265    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.7620   -8.2420    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7854   -5.2836    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7222   -8.2358    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7454   -8.8265    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7454  -10.0080    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   11.7685  -10.5987    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7222  -10.5987    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0  0  0  0
+  3  2  1  0  0  0  0
+  4  3  2  0  0  0  0
+  5  4  1  0  0  0  0
+  1  6  1  0  0  0  0
+  6  5  2  0  0  0  0
+  4  7  1  0  0  0  0
+  8  7  2  0  0  0  0
+  9  8  1  0  0  0  0
+ 10  9  2  0  0  0  0
+ 11 10  1  0  0  0  0
+ 12 11  2  0  0  0  0
+  7 12  1  1  0  0  0
+  8 13  1  0  0  0  0
+  5 14  1  0  0  0  0
+ 14 15  1  0  0  0  0
+ 15 16  1  0  0  0  0
+ 16 17  1  0  0  0  0
+ 16 18  1  1  0  0  0
+M  END
+> <Index>
+45
+
+> <Case_Description>
+V2000 CTAB with atropoisomer bond plus sp3 wedge bond, and chirality flag 0
+
+> <Expected_Action>
+application of the 'and' stereo to all stereocenters, including the atropoisomer-related atoms, i.e. use of wU and wD flags in the enhanced stereo section of CXSMILES to encode absolute atropoisomerism, plus inclusion of the atropoisomeric atoms in the '&' list; however lost by current version of the standardisation; and isolated sp3 'and' wedge is flattened
+
+> <Expected_CSXMILES>
+SMILES
+
+> <Input_Type>
+SDF
+
+> <Subtype>
+V2000 CTAB
+
+> <N_molecules>
+1
+
+> <Salt>
+No
+
+> <Specified_Stereocenters>
+1
+
+> <Chirality_Flag>
+0
+
+> <Enhanced_Stereo>
+No
+
+$$$$

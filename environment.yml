@@ -1,0 +1,6 @@
+name: DataUtilities
+channels:
+  - conda-forge
+dependencies:
+  - rdkit
+  - chembl_structure_pipeline
